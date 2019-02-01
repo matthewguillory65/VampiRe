@@ -7,9 +7,11 @@ public class NpcBehaviour : MonoBehaviour
     public bool isDead;
     public bool rightShoulderGrabbed;
     public bool leftShoulderGrabbed;
+    Animator anim;
 
     void Start() 
     {
+        anim = GetComponent<Animator>();
         isDead = false;
 	}
 	
@@ -26,6 +28,7 @@ public class NpcBehaviour : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             isDead = true;
+            anim.SetBool("isDead", true);
         }
 	}
 }
