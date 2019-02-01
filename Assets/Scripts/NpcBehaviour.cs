@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class NpcBehaviour : MonoBehaviour
 {
-    bool isDead;
-    
+    public bool isDead;
+    public bool rightShoulderGrabbed;
+    public bool leftShoulderGrabbed;
 
     void Start() 
     {
@@ -14,6 +15,17 @@ public class NpcBehaviour : MonoBehaviour
 	
 	void Update ()
     {
-		
+        if (Input.GetKey(KeyCode.A))
+        {
+            leftShoulderGrabbed = true;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            rightShoulderGrabbed = true;
+        }
+        if (Input.GetKey(KeyCode.Space))
+        {
+            isDead = true;
+        }
 	}
 }
