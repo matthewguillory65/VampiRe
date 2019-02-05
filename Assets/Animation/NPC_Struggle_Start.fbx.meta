@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0495c8a1afdec834c9f9461caffeddaf
+guid: a2f7e39a1c2c8db48bfbbb0ffe06db3d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -157,7 +157,7 @@ ModelImporter:
     400150: QDC_Lowpoly
     2100000: lambert1
     4300000: QDC_Lowpoly
-    7400000: Take 001
+    7400000: Struggle Start
     9500000: //RootNode
     13700000: QDC_Lowpoly
   externalObjects: {}
@@ -189,17 +189,17 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: Struggle Start
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 399
+      lastFrame: 10
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
