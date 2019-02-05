@@ -24,22 +24,22 @@ public class NpcBehaviour : MonoBehaviour
 
         PlayerDetection();
 
-        if (Input.GetKey(KeyCode.A))
-        {
-            leftShoulderGrabbed = true;
-        }
-        else
-        {
-            leftShoulderGrabbed = false;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            rightShoulderGrabbed = true;
-        }
-        else
-        {
-            rightShoulderGrabbed = false;
-        }
+        //if (Input.GetKey(KeyCode.A))
+        //{
+        //    leftShoulderGrabbed = true;
+        //}
+        //else
+        //{
+        //    leftShoulderGrabbed = false;
+        //}
+        //if (Input.GetKey(KeyCode.D))
+        //{
+        //    rightShoulderGrabbed = true;
+        //}
+        //else
+        //{
+        //    rightShoulderGrabbed = false;
+        //}
         if (Input.GetKey(KeyCode.Space))
         {
             isDead = true;
