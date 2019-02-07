@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 0c84e5dbb3593114492eb9d2b44e6e68
+guid: 602b644b4f050ff4d9f82fab801e0f72
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: table
+    2100000: lambert1
     2300000: //RootNode
     3300000: //RootNode
-    4300000: DiningTable
+    4300000: DiningRoomTable
   externalObjects: {}
   materials:
     importMaterials: 1

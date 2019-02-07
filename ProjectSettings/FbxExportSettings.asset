@@ -15,6 +15,7 @@
             "."
         ],
         "fbxSavePaths": [
+            "FbxExporters/Demo",
             "FbxExporters/Maya",
             "."
         ],
