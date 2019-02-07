@@ -15,23 +15,31 @@ public class SkirtBehaviour : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	}
+ 
     private void OnTriggerEnter(Collider other)
     {
-        OnCaughtEvent.Raise();
+        if(other.tag == "Player")
+        {
+            OnCaughtEvent.Raise();
+        }
+        print("collide");
     }
     private void OnTriggerExit(Collider other)
     {
-        OnNotCaughtEvent.Raise();
+        if (other.tag == "Player")
+        {
+            OnNotCaughtEvent.Raise();
+        }
     }
     public void ChangeColor()
     {
-        if(renderer.material.color == Color.green)
+        if(renderer.material.color == Color.red)
         {
-            renderer.material.color = Color.red;
+            renderer.material.color = Color.green;
         }
         else
         {
-            renderer.material.color = Color.green;
+            renderer.material.color = Color.red;
         }
     }
 
