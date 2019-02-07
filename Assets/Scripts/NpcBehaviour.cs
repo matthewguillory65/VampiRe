@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NpcBehaviour : MonoBehaviour
 {
-    public Transform player;
+    public Transform target;
     public float angleOfView;
     public float distanceOfView;
     public bool isDead;
@@ -22,7 +22,7 @@ public class NpcBehaviour : MonoBehaviour
     void Update ()
     {
 
-        PlayerDetection();
+        //PlayerDetection();
 
         //if (Input.GetKey(KeyCode.A))
         //{
@@ -51,14 +51,14 @@ public class NpcBehaviour : MonoBehaviour
 
     void PlayerDetection()
     {
-        var targetDir = player.position - transform.position;
+        var targetDir = target.position - transform.position;
         float angle = Vector3.Angle(targetDir, transform.forward);
-        float distance = Vector3.Distance(player.position, transform.position);
-        print(distance + ": between player and npc");
+        float distance = Vector3.Distance(target.position, transform.position);
+        print(distance + ": between target and npc");
         if (angle <= angleOfView && distance <= distanceOfView)
         {
-            Debug.DrawLine(transform.position, player.transform.position, Color.blue);
-            if (Physics.Linecast(transform.position, player.transform.position, out hit))
+            Debug.DrawLine(transform.position, target.transform.position, Color.blue);
+            if (Physics.Linecast(transform.position, target.transform.position, out hit))
             {
                 if (hit.collider.CompareTag("Player"))
                 {

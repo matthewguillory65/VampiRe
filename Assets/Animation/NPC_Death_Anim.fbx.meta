@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0ce9d9632ff89064abebca19cabcc591
+guid: 15bbea5f46b99db4885129afed972115
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -157,7 +157,7 @@ ModelImporter:
     400150: QDC_Lowpoly
     2100000: lambert1
     4300000: QDC_Lowpoly
-    7400000: Idle
+    7400000: Take 001
     9500000: //RootNode
     13700000: QDC_Lowpoly
   externalObjects: {}
@@ -187,35 +187,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Idle
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 24
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

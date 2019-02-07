@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 351bd65e99063b14bb2e619683b6e9ee
+
+guid: e31739249947d774ab0726df5d6a6b50
+=======
+guid: a2f7e39a1c2c8db48bfbbb0ffe06db3d
+
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -157,7 +161,10 @@ ModelImporter:
     400150: QDC_Lowpoly
     2100000: lambert1
     4300000: QDC_Lowpoly
+
     7400000: Take 001
+=======
+    7400000: Struggle Start
     9500000: //RootNode
     13700000: QDC_Lowpoly
   externalObjects: {}
@@ -187,7 +194,38 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
+
     clipAnimations: []
+=======
+    clipAnimations:
+    - serializedVersion: 16
+      name: Struggle Start
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
