@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Caughtevent : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+    public GameEvent OnCaughtEvent;
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
