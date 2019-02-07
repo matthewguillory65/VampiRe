@@ -15,6 +15,7 @@
             "."
         ],
         "fbxSavePaths": [
+            "FbxExporters/Demo",
             "FbxExporters/Maya",
             "."
         ],
@@ -27,9 +28,9 @@
             "rootMotionTransfer": "",
             "animatedSkinnedMesh": false,
             "mayaCompatibleNaming": true,
-            "include": 2,
-            "lodLevel": 0,
-            "objectPosition": 0,
+            "include": 0,
+            "lodLevel": 2,
+            "objectPosition": 1,
             "exportUnrendered": true
         },
         "convertToPrefabSettingsSerialize": {
