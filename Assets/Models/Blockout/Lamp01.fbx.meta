@@ -1,17 +1,56 @@
 fileFormatVersion: 2
-guid: c0b3bacf218677642bb480379e370d77
+guid: 657f9f2c059b27e4b8dc4ea1a789e3d2
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Wall_DiningRoom01
-    100002: //RootNode
-    400000: Wall_DiningRoom01
-    400002: //RootNode
-    2100000: Wall_DiningRoom01SG1
-    2100002: Wall_DiningRoom01Mat
-    2300000: Wall_DiningRoom01
-    3300000: Wall_DiningRoom01
-    4300000: Wall_DiningRoom01
+    100000: //RootNode
+    100002: Lamp_Wall_01
+    100004: Lamp_Wall_02
+    100006: pCylinder1
+    100008: pCylinder10
+    100010: pCylinder11
+    100012: pCylinder5
+    100014: pCylinder7
+    100016: pCylinder8
+    100018: pCylinder9
+    400000: //RootNode
+    400002: Lamp_Wall_01
+    400004: Lamp_Wall_02
+    400006: pCylinder1
+    400008: pCylinder10
+    400010: pCylinder11
+    400012: pCylinder5
+    400014: pCylinder7
+    400016: pCylinder8
+    400018: pCylinder9
+    2100000: lambert1
+    2300000: Lamp_Wall_01
+    2300002: Lamp_Wall_02
+    2300004: pCylinder1
+    2300006: pCylinder10
+    2300008: pCylinder11
+    2300010: pCylinder5
+    2300012: pCylinder7
+    2300014: pCylinder8
+    2300016: pCylinder9
+    3300000: Lamp_Wall_01
+    3300002: Lamp_Wall_02
+    3300004: pCylinder1
+    3300006: pCylinder10
+    3300008: pCylinder11
+    3300010: pCylinder5
+    3300012: pCylinder7
+    3300014: pCylinder8
+    3300016: pCylinder9
+    4300000: pCylinder8
+    4300002: pCylinder7
+    4300004: pCylinder10
+    4300006: pCylinder9
+    4300008: Lamp_Wall_02
+    4300010: pCylinder11
+    4300012: Lamp_Wall_01
+    4300014: pCylinder5
+    4300016: pCylinder1
   externalObjects: {}
   materials:
     importMaterials: 1
