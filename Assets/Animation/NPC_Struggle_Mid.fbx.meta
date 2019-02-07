@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0495c8a1afdec834c9f9461caffeddaf
+guid: d132428c18d2cd748a7b9d49b0b44532
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -192,7 +192,7 @@ ModelImporter:
       name: Take 001
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 399
+      lastFrame: 19
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -215,7 +215,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
