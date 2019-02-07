@@ -1,4 +1,6 @@
 fileFormatVersion: 2
+guid: 29c982d93be77334ca7a4b68044c37df
+=======
 guid: d132428c18d2cd748a7b9d49b0b44532
 ModelImporter:
   serializedVersion: 23
@@ -187,6 +189,8 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
+    clipAnimations: []
+=======
     clipAnimations:
     - serializedVersion: 16
       name: Take 001
