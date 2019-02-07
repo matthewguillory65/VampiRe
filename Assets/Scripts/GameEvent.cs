@@ -33,8 +33,10 @@ public class GameEventEditor : Editor
     public override void OnInspectorGUI()
     {
         base.OnInspectorGUI();
-        if (GUILayout.Button("Raise Event")) ;
-        var mt = target as GameEvent;
-        mt.Raise();
+        if (GUILayout.Button("Raise Event"))
+        {
+            var mt = target as GameEvent;
+            mt.Raise();
+        }
     }
 }
