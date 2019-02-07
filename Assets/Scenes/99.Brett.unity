@@ -420,9 +420,29 @@ Prefab:
       propertyPath: distanceOfView
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 114564190664890362, guid: 0263959c542e187488ada4618c26916d,
+        type: 2}
+      propertyPath: OnSpaceBar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114564190664890362, guid: 0263959c542e187488ada4618c26916d,
+        type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1577471361}
+    - target: {fileID: 114564190664890362, guid: 0263959c542e187488ada4618c26916d,
+        type: 2}
+      propertyPath: ICanSeeThePlayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0263959c542e187488ada4618c26916d, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &793146113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1099729609537474, guid: 0263959c542e187488ada4618c26916d,
+    type: 2}
+  m_PrefabInternal: {fileID: 700811982}
 --- !u!1 &1214013673
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,6 +522,7 @@ GameObject:
   - component: {fileID: 1577471358}
   - component: {fileID: 1577471357}
   - component: {fileID: 1577471362}
+  - component: {fileID: 1577471363}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -604,6 +625,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+--- !u!114 &1577471363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1577471356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c122c90e152c00d49a95cac2f1275449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 0}
+  Notes: 
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 793146113}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1815863025
 GameObject:
   m_ObjectHideFlags: 0
