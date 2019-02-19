@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SkirtBehaviour : MonoBehaviour {
-    public GameEvent OnCaughtEvent;
-    public GameEvent OnNotCaughtEvent;
     public Renderer renderer;
 
     // Use this for initialization
@@ -20,7 +18,7 @@ public class SkirtBehaviour : MonoBehaviour {
     {
         if(other.tag == "Player")
         {
-            OnCaughtEvent.Raise();
+            ChangeColor();
         }
         print("collide");
     }
@@ -28,7 +26,7 @@ public class SkirtBehaviour : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            OnNotCaughtEvent.Raise();
+            ChangeColor();
         }
     }
     public void ChangeColor()

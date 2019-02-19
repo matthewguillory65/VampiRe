@@ -22,7 +22,7 @@ public class NpcBehaviour : MonoBehaviour
     void Update ()
     {
 
-        //PlayerDetection();
+        PlayerDetection();
 
         //if (Input.GetKey(KeyCode.A))
         //{
