@@ -17302,6 +17302,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 0.09584989
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 81f60213a237ee9478d564fb53e66ad2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81f60213a237ee9478d564fb53e66ad2, type: 3}
   m_IsPrefabAsset: 0
@@ -22029,6 +22033,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81f60213a237ee9478d564fb53e66ad2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 81f60213a237ee9478d564fb53e66ad2, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -31627,7 +31635,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1371433305
 Transform:
   m_ObjectHideFlags: 0
@@ -34920,6 +34928,10 @@ Prefab:
     - target: {fileID: 400000, guid: 81f60213a237ee9478d564fb53e66ad2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 81f60213a237ee9478d564fb53e66ad2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81f60213a237ee9478d564fb53e66ad2, type: 3}
