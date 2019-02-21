@@ -27,7 +27,7 @@ public class GameEvent : ScriptableObject
     }
 }
 
-#if Unity_Editor
+#if UNITY_EDITOR
 [CustomEditor(typeof(GameEvent))]
 public class GameEventEditor : Editor
 {
