@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SkirtBehaviour : MonoBehaviour {
     public Renderer renderer;
+    public Material materialGreen;
 
     // Use this for initialization
     
@@ -33,7 +34,7 @@ public class SkirtBehaviour : MonoBehaviour {
     {
         if(renderer.material.color == Color.red)
         {
-            renderer.material.color = Color.green;
+            renderer.material = materialGreen;
         }
         else
         {
