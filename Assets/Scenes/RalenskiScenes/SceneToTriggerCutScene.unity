@@ -306,7 +306,7 @@ Transform:
   m_GameObject: {fileID: 272092311}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.16438326, z: 0.0092829205}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1.2091}
   m_Children:
   - {fileID: 229848510}
   m_Father: {fileID: 0}
@@ -324,6 +324,7 @@ GameObject:
   - component: {fileID: 413062705}
   - component: {fileID: 413062704}
   - component: {fileID: 413062703}
+  - component: {fileID: 413062708}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -413,6 +414,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &413062708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 413062702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a7bbbba91b78542991b38fed2f062b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  compareTag: 
+  onEnterGameEvent: {fileID: 0}
+  onExitGameEvent: {fileID: 0}
+  gameObject: {fileID: 0}
 --- !u!1 &663192695
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,8 +619,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 16.729328, y: 1.8006214, z: 9.415999}
-  m_Center: {x: 2.96411, y: 0.32276005, z: 0.16770706}
+  m_Size: {x: 1.0406903, y: 1.0409791, z: 1.0826577}
+  m_Center: {x: 0.0024520801, y: 0.002012165, z: -0.0024330553}
 --- !u!23 &826276239
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -654,8 +670,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 826276236}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.76, y: 2.15, z: 0.0092829}
-  m_LocalScale: {x: 1, y: 3.4337, z: 2.3003}
+  m_LocalPosition: {x: -31.74, y: 2.1486, z: 0.0092829}
+  m_LocalScale: {x: 3.25, y: 4.1204405, z: 2.3003}
   m_Children:
   - {fileID: 1369059774}
   m_Father: {fileID: 0}
@@ -717,7 +733,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   compareTag: Player
-  gameEvent: {fileID: 11400000, guid: a7717f136dab67543a53a91d5821c52a, type: 2}
+  onEnterGameEvent: {fileID: 0}
+  onExitGameEvent: {fileID: 0}
+  gameObject: {fileID: 0}
 --- !u!1 &964121806
 GameObject:
   m_ObjectHideFlags: 0
