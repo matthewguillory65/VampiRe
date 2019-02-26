@@ -244,6 +244,21 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 1577471361}
+    - target: {fileID: 114458338663802754, guid: c5932ad464f896d4ea8092c24b899b71,
+        type: 2}
+      propertyPath: Target
+      value: 
+      objectReference: {fileID: 1577471361}
+    - target: {fileID: 114458338663802754, guid: c5932ad464f896d4ea8092c24b899b71,
+        type: 2}
+      propertyPath: AngleOfView
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 114458338663802754, guid: c5932ad464f896d4ea8092c24b899b71,
+        type: 2}
+      propertyPath: DistanceOfView
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5932ad464f896d4ea8092c24b899b71, type: 2}
   m_IsPrefabAsset: 0
@@ -488,7 +503,6 @@ GameObject:
   - component: {fileID: 1577471358}
   - component: {fileID: 1577471357}
   - component: {fileID: 1577471362}
-  - component: {fileID: 1577471363}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -573,7 +587,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1577471356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.46, y: 1, z: 16.23}
+  m_LocalPosition: {x: -6.46, y: 0.96, z: 16.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -590,36 +604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f6e35e8cf4bb04b9c932ff8e94bffd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
---- !u!114 &1577471363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1577471356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c122c90e152c00d49a95cac2f1275449, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: {fileID: 0}
-  Notes: 
-  Response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  speed: 1
 --- !u!1 &1815863025
 GameObject:
   m_ObjectHideFlags: 0
