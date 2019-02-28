@@ -7,15 +7,16 @@ using UnityEngine.Serialization;
 [RequireComponent(typeof(Collider))]
 public class OnTriggerEventSystem : MonoBehaviour
 {
-    [FormerlySerializedAs("PlayerTag")] public string playerTag;
-    [FormerlySerializedAs("TriggerEnter")] public GameEvent playerTriggerEnter;
-    [FormerlySerializedAs("TriggerEnd")] public GameEvent playerTriggerEnd;
-    [FormerlySerializedAs("TriggerStay")] public GameEvent playerTriggerStay;
+    public string playerTag;
+    public GameEvent playerTriggerEnter;
+    public GameEvent playerTriggerExit;
+    public GameEvent playerTriggerStay;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(playerTag)==true)
         {
             playerTriggerEnter.Raise();
+            
             Debug.Log("Trigger Start.");
         }
     }
@@ -23,7 +24,7 @@ public class OnTriggerEventSystem : MonoBehaviour
     {
         if (other.CompareTag(playerTag)==true)
         {
-            playerTriggerEnd.Raise();
+            playerTriggerExit.Raise();
             Debug.Log("Trigger Stop.");
         }
     }
@@ -32,6 +33,8 @@ public class OnTriggerEventSystem : MonoBehaviour
         if (other.CompareTag(playerTag)== true)
         {
             playerTriggerStay.Raise();
+            Debug.Log("Trigger Stay.");
         }
     }
+    
 }

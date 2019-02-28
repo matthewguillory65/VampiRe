@@ -1,26 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
+
 [CustomEditor(typeof(OnTriggerEventSystem))]
-public class EditorWindowScript : Editor {
+public class EditorWindowScript : Editor
+{
+    public bool onTriggerEnterToggle;
+    public bool onTriggerExitToggle;
+    public bool onTriggerStayToggle;
+
     public override void OnInspectorGUI()
     {
-        base.OnInspectorGUI();
-        if (EditorGUILayout.Toggle("On Trigger Enter", false))
-        {
-
-        }
-        if (EditorGUILayout.Toggle("On Trigger Exit", false))
+        onTriggerEnterToggle = EditorGUILayout.Toggle("On Trigger Enter", onTriggerEnterToggle);
+        if (onTriggerEnterToggle == true)
         {
             
         }
-        if (EditorGUILayout.Toggle("On Trigger Stay", false))
-        {
+       onTriggerExitToggle = EditorGUILayout.Toggle("On Trigger Exit", onTriggerExitToggle);
+        onTriggerStayToggle = EditorGUILayout.Toggle("On Trigger Stay", onTriggerStayToggle);
+        base.OnInspectorGUI();
 
-        }
+
     }
- 
-    
 
 }
