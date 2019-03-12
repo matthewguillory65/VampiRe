@@ -8,6 +8,9 @@ public class EditorWindowScript  :  Editor
     public bool onTriggerEnterToggle;
     public bool onTriggerExitToggle;
     public bool onTriggerStayToggle;
+    public GameEvent OnTriggerEnter;
+    public GameEvent OnTriggerExit;
+    public GameEvent OnTriggerStay;
     public override void OnInspectorGUI()
     {
         onTriggerEnterToggle = EditorGUILayout.Toggle("On Trigger Enter", onTriggerEnterToggle);
@@ -15,41 +18,32 @@ public class EditorWindowScript  :  Editor
         onTriggerStayToggle = EditorGUILayout.Toggle("On Trigger Stay", onTriggerStayToggle);
         base.OnInspectorGUI();
     }
-    private void EventListener(GameEvent gameEvent, int index)
+
+    private void RasieEvents()
     {
-        var fieldingInfo = gameEvent.GetType().GetField("Listeners",BindingFlags.Instance);
-        if (fieldingInfo != null)
+        if (onTriggerEnterToggle == true)
         {
-            var i = fieldingInfo.GetValue(gameEvent);
-            var listeners = i as List<GameEventListener>;
-            GUILayout.BeginVertical(EditorStyles.helpBox);
-            if (listeners != null && listeners.Count <= 10)
-            {
-                EditorGUILayout.LabelField(gameEvent.name);
-                EditorGUILayout.LabelField("listeners: 10");
-            }
-            else
-            {
-                var width = EditorStyles.miniButton.CalcSize(new GUIContent("Raise"));
-                EditorGUILayout.BeginHorizontal(EditorStyles.toolbar);
-                EditorGUILayout.LabelField(gameEvent.name);
-                if (GUILayout.Button("Raise", EditorStyles.toolbarButton, GUILayout.Width(width.x + 4)))
-                    gameEvent.Raise();
-                EditorGUILayout.EndHorizontal();
-
-                EditorGUI.indentLevel++;
-                if (listeners != null)
-                    foreach (var listener in listeners)
-                    {
-                    }
-
-                EditorGUI.indentLevel--;
-            }
+            OnTriggerEnter.Raise();
         }
 
-        GUILayout.EndVertical();
+        if (onTriggerExitToggle == true)
+        {
+            OnTriggerExit.Raise();
+        }
+
+        if (OnTriggerStay == true)
+        {
+            OnTriggerStay.Raise();
+        }
     }
-    private GUIContent[] mContents;
-    private List<GameEvent> mGameEvents = new List<GameEvent>();
-  
+
+    void Start()
+    {
+
+    }
+
+    void Update()
+    {
+        RasieEvents();
+    }
 }
