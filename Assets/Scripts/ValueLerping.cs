@@ -1,39 +1,39 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.UIElements;
 
 public class ValueLerping : MonoBehaviour
 {
-    public Vector3 MinScale;
-    public Vector3 MaxScale;
-
-    public bool Repeatable;
-    public float speed = 3f;
-    public float duration = 5f;
-  
+    public int MinScale = 1;
+    public int MaxScale = 3;
+    public Vector3 ScaleSize;
+    public float PercentToLerp = .50f;
 	// Use this for initialization
-	IEnumerator  Start ()
+    void Lerp(int Min, int Max, float percent)
     {
-        MinScale = transform.localScale;
-        while (Repeatable)
+        // The high number minus the low number will give a value that will need to be multiplied by the percent value.
+        Min = MinScale;
+        Max = MaxScale;
+        percent = PercentToLerp;
+        float returnValue = (Max - Min) * percent;
+        for (returnValue = 0; returnValue > 0; returnValue++)
         {
-            return RepeatLerp(MinScale, MaxScale);
+            gameObject.transform.localScale.Scale(ScaleSize);
         }
-        return RepeatLerp(MinScale, MaxScale);
     }
 
-    public IEnumerator RepeatLerp(Vector3 a, Vector3 b)
+    void WhenToLerp(Collider other)
     {
-        float i = 0.0f;
-        float rate = (1.0f / duration) * speed;
-        while (i<1.0f)
+        // if the gameObject touches a object with the tag of Ground attached then the function lerp will be raised.
+        if (other.gameObject.CompareTag("Ground"))
         {
-            i += Time.deltaTime * rate;
-            transform.localScale=Vector3.Lerp(a,b,5);
-            return null;
+            Lerp(MinScale,MaxScale,PercentToLerp);
         }
-        return null;
+    }
+    // Use this for initialization
+    void Start()
+    {
+
     }
 	// Update is called once per frame
 	void Update () {

@@ -123,7 +123,6 @@ GameObject:
   - component: {fileID: 82355868}
   - component: {fileID: 82355870}
   - component: {fileID: 82355869}
-  - component: {fileID: 82355867}
   m_Layer: 0
   m_Name: Listener
   m_TagString: Untagged
@@ -131,20 +130,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &82355867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 82355866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17d0e8c4da43b4b4e9df792cd6e04297, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onTriggerEnterToggle: 1
-  onTriggerExitToggle: 1
-  onTriggerStayToggle: 1
 --- !u!4 &82355868
 Transform:
   m_ObjectHideFlags: 0
@@ -301,7 +286,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 195352773}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.3, y: 6, z: -31}
+  m_LocalPosition: {x: -2.1, y: 6, z: 4.8}
   m_LocalScale: {x: 3.22, y: 3.22, z: 3.22}
   m_Children: []
   m_Father: {fileID: 0}
@@ -611,6 +596,7 @@ GameObject:
   - component: {fileID: 1637943172}
   - component: {fileID: 1637943171}
   - component: {fileID: 1637943170}
+  - component: {fileID: 1637943175}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -695,9 +681,24 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1637943169}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.8, y: 6, z: -31}
+  m_LocalPosition: {x: 1.6000004, y: 6, z: 5.9}
   m_LocalScale: {x: 3.22, y: 3.22, z: 3.22}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1637943175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1637943169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eff606c26379e3f4d841a7b8fcd902df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinScale: 1
+  MaxScale: 3
+  ScaleSize: {x: 1, y: 1, z: 1}
+  PercentToLerp: 0.5
