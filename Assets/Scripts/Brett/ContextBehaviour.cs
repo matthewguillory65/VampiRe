@@ -15,7 +15,7 @@ namespace Assets.Scripts.Brett
 
         void Start()
         {
-            Context.CurrentState = new StartState();
+            Context.CurrentState = new IntroStartState();
             
         }
 

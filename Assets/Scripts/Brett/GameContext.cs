@@ -9,7 +9,6 @@ namespace Assets.Scripts.Brett
     {
         public string StateName;
 
-
         public override State CurrentState { get; set; }
 
         public override void ChangeState(State s)

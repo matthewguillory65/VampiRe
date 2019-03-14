@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Assets.Scripts.Brett;
+using System.Linq.Expressions;
+using UnityEditorInternal;
 using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
-    public class RunningState : State
+    public class GameStartState : State
     {
-
         public override void OnEnter()
         {
-            Debug.Log(this);
+            Debug.Log("GameStartState");
         }
 
         public override void OnExit()
@@ -20,10 +20,7 @@ namespace Assets.Scripts.Brett
 
         public override void Update(Context c)
         {
-            if (Input.GetKey(KeyCode.Space))
-            {
-                c.ChangeState(new StartState());
-            }
+            //Transitions into GameRunningState
         }
     }
 }
