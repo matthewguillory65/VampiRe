@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33468569893793384}
   - component: {fileID: 23488438526745622}
   m_Layer: 0
-  m_Name: Object004
+  m_Name: Wall_Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 33374674972257594}
   - component: {fileID: 23463212898887308}
   m_Layer: 0
-  m_Name: Box008
+  m_Name: Wall_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 33070557307160226}
   - component: {fileID: 23071571166049476}
   m_Layer: 0
-  m_Name: Object005
+  m_Name: Wall_Rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,6 +70,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4971110085920150}
+  - component: {fileID: 65080749318078272}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -88,7 +89,7 @@ GameObject:
   - component: {fileID: 33658240760889706}
   - component: {fileID: 23162532994702074}
   m_Layer: 0
-  m_Name: Object006
+  m_Name: Wall_Bottom_Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -331,3 +332,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1800520086814564}
   m_Mesh: {fileID: 4300000, guid: e6874119828d1c2449ff65810cde3576, type: 3}
+--- !u!65 &65080749318078272
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1619616711675786}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
