@@ -12,11 +12,14 @@ namespace Assets.Scripts.Brett
         private Context Context;
 
         
+        public GameStateScriptable GAMESTATEREF;
+
+        
 
         void Start()
         {
-            Context.CurrentState = new IntroStartState();
-            
+            Context.CurrentState = GAMESTATEREF.TheState;
+
         }
 
         private void Update()

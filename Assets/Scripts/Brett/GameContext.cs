@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Assets.Scripts.Brett
 {
@@ -8,9 +9,7 @@ namespace Assets.Scripts.Brett
     public class GameContext :  Context
     {
         public string StateName;
-
-        public MyEnum TestEnum;
-
+ 
         public override State CurrentState { get; set; }
 
         public override void ChangeState(State s)
