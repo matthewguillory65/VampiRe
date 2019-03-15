@@ -6,11 +6,12 @@ using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
-    public class StartState : State
+    public class IntroRunningState : State
     {
+
         public override void OnEnter()
         {
-            Debug.Log("StartState");
+            Debug.Log("IntroRunningState");
         }
 
         public override void OnExit()
@@ -20,10 +21,8 @@ namespace Assets.Scripts.Brett
 
         public override void Update(Context c)
         {
-            if (Input.GetKey(KeyCode.Return))
-            {
-                c.ChangeState(new RunningState());
-            }
+            //Can transition to IntroPauseState, IntroRunningState, or GameStart state
+            
         }
     }
 }

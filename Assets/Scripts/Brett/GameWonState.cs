@@ -5,12 +5,13 @@ using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
-    public class RunningState : State
+
+    public class GameWonState : State
     {
 
         public override void OnEnter()
         {
-            Debug.Log(this);
+            Debug.Log("GameWonState");
         }
 
         public override void OnExit()
@@ -20,10 +21,7 @@ namespace Assets.Scripts.Brett
 
         public override void Update(Context c)
         {
-            if (Input.GetKey(KeyCode.Space))
-            {
-                c.ChangeState(new StartState());
-            }
+            //Can Transition into ExitState or IntroStartState
         }
     }
 }

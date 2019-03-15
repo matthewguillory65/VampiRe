@@ -9,6 +9,7 @@ namespace Assets.Scripts.Brett
     {
         public string StateName;
 
+        public MyEnum TestEnum;
 
         public override State CurrentState { get; set; }
 
@@ -25,4 +26,14 @@ namespace Assets.Scripts.Brett
             CurrentState.Update(this);
         }
     }
+
+    public enum MyEnum
+    {
+        Running,
+        Pause,
+        Intro,
+        Win,
+        Loses
+    }
+
 }
