@@ -12,6 +12,6 @@ namespace Assets.Scripts.Brett
         public abstract void ChangeState(State s);
 
         public abstract void Update();
-
+ 
     }
 }

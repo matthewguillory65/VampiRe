@@ -6,8 +6,10 @@ using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
+
     public class IntroPauseState : State
     {
+
         public override void OnEnter()
         {
             Debug.Log("IntroPauseState");

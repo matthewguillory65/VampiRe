@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using UnityEditorInternal;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Assets.Scripts.Brett
 {
@@ -21,7 +22,11 @@ namespace Assets.Scripts.Brett
         }
 
         public override void Update(Context c)
-        { 
+        {
+            if (Input.GetKey(KeyCode.A))
+            {
+                c.ChangeState(new IntroRunningState());
+            }
             //Transitions to IntroRunningState
             
         }
