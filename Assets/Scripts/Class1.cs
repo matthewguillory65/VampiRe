@@ -13,7 +13,10 @@ namespace Assets.Scripts
 
         private void Update()
         {
-            left.CompareTo(sphere);
+            if(left.CompareTo(sphere) == 1 && right.CompareTo(sphere) == 1)
+            {
+                print("Works");
+            }
             
         }
     }
