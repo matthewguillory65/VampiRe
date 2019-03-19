@@ -2,16 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerLerp : ValueLerping
+public class TriggerLerp : MonoBehaviour
 {
-    private GameObject Obj;
-    public GameEvent LerpTrigger;
+    private GameObject Ground;
+    public SoundLerp SoundToLerp;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("BallNoiseMaker"))
+        SoundToLerp.TriggerLerp.Subscribe(new GameEventListener());
+        if (other.CompareTag("Ground") == true)
         {
-            LerpTrigger.Raise();
+            do
+            {
+                SoundToLerp.Invoke("RaiseEvent",5);
+                Debug.Log("Should be Lerping.");
+            }
+            while (other.CompareTag("Ground")==true);
+        }
+
+        if (SoundToLerp.isLerping == true)
+        {
+            SoundToLerp.Invoke("RaiseEvent",5);
+            Debug.Log("Should be Lerping.");
         }
     }
 

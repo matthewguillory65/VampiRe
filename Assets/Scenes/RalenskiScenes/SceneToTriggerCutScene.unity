@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 964121807}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -595,30 +595,14 @@ GameObject:
   - component: {fileID: 1637943173}
   - component: {fileID: 1637943172}
   - component: {fileID: 1637943171}
-  - component: {fileID: 1637943170}
   - component: {fileID: 1637943175}
   m_Layer: 0
-  m_Name: Player
-  m_TagString: Untagged
+  m_Name: Throwable
+  m_TagString: Throwable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1637943170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1637943169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52a7bbbba91b78542991b38fed2f062b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTag: Player
-  playerTriggerEnter: {fileID: 11400000, guid: f47b60bd9330aac498fb8f94ff450df6, type: 2}
-  playerTriggerExit: {fileID: 11400000, guid: d2418f562048a2045b047d2548dcfd87, type: 2}
-  playerTriggerStay: {fileID: 11400000, guid: 8db85a4b0314b9a49b18e6fb07488c72, type: 2}
 --- !u!136 &1637943171
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -698,7 +682,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eff606c26379e3f4d841a7b8fcd902df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinScale: 1
-  MaxScale: 3
-  ScaleSize: {x: 1, y: 1, z: 1}
-  PercentToLerp: 0.5
+  StartPos: {x: 0, y: 0, z: 0}
+  EndPos: {x: 5, y: 5, z: 5}
+  Throwable: {fileID: 1637943169}
+  TriggerLerp: {fileID: 11400000, guid: 283a28ba9393cf8488acae4cb2f108f5, type: 2}
+  TimeToLerp: 5
+  isLerping: 0
