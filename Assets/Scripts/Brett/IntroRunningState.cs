@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
+    [System.Serializable]
     public class IntroRunningState : State
     {
 
@@ -22,7 +23,6 @@ namespace Assets.Scripts.Brett
         public override void Update(Context c)
         {
             //Can transition to IntroPauseState, IntroRunningState, or GameStart state
-            
         }
     }
 }

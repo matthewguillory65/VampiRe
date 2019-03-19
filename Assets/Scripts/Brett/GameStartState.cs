@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
-
+    [System.Serializable]
     public class GameStartState : State
     {
         public override void OnEnter()

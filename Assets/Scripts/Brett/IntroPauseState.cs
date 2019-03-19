@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
-
+    [System.Serializable]
     public class IntroPauseState : State
     {
 

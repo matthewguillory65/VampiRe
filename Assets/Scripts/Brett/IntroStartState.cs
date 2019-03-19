@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 namespace Assets.Scripts.Brett
 {
+    [System.Serializable]
     public class IntroStartState : State
     {
         public override void OnEnter()

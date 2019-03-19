@@ -5,23 +5,9 @@ using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
-
+    [CreateAssetMenu]
     public class GameStateScriptable : ScriptableObject
     {
-        public enum GameState
-        {
-            IntroStartState,
-            IntroRunningState,
-            IntroPauseState,
-            GameStartState,
-            GameRunningState,
-            GamePauseState,
-            GameWonState,
-            GameLoseState,
-            ExitState
-        }
-
-        public GameState gameState;
+        public State state;
     }
-
 }

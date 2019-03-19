@@ -7,8 +7,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
-    [CreateAssetMenu(menuName = "GameStates/ExitState")]
-
+    [System.Serializable]
     public class ExitState : State
     {
         public override void OnEnter()
