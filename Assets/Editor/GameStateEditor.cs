@@ -38,6 +38,7 @@ public class GameStateEditor : EditorWindow
     private void OnGUI()
     {
         GUILayout.BeginHorizontal(EditorStyles.helpBox);
+
         GUILayout.BeginVertical(EditorStyles.helpBox);
         EditorGUILayout.LabelField("Game States:", EditorStyles.boldLabel);
         scroll = EditorGUILayout.BeginScrollView(scroll);
@@ -49,6 +50,8 @@ public class GameStateEditor : EditorWindow
         EditorGUILayout.EndScrollView();
         GUILayout.BeginVertical();
         scroll2 = EditorGUILayout.BeginScrollView(scroll2);
+        EditorGUILayout.LabelField("Game State Name:", EditorStyles.boldLabel);
+        gameStateName = GUILayout.TextField(gameStateName);
         if (GUILayout.Button("Create a New GameState") && gameStateName != "")
         {
             string path = "Assets/Scripts/Brett/" + gameStateName + ".cs";
@@ -72,7 +75,6 @@ public class GameStateEditor : EditorWindow
            Repaint();
             
         }
-        gameStateName = GUILayout.TextField(gameStateName);
         GUILayout.EndScrollView();
         GUILayout.EndVertical();
         GUILayout.EndHorizontal();
@@ -81,8 +83,6 @@ public class GameStateEditor : EditorWindow
         {
             Repaint();
         }
- 
-
     }
 
     private List<System.Type> m_result = new List<System.Type>();
