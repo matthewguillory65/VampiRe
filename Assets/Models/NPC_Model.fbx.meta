@@ -180,7 +180,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -210,7 +210,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
     previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
@@ -222,8 +222,796 @@ ModelImporter:
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
-    human: []
-    skeleton: []
+    human:
+    - boneName: GameCharacter_RIG_ROOTSHJnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Leg_HipSHJnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Leg_HipSHJnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Leg_KneeSHJnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Leg_KneeSHJnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Leg_AnkleSHJnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Leg_AnkleSHJnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_Spine_01SHJnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_Spine_02SHJnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_Neck_01SHJnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_Neck_02SHJnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Arm_ClavicleSHJnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Arm_ClavicleSHJnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Arm_ShoulderSHJnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Arm_ShoulderSHJnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Arm_ElbowSHJnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Arm_ElbowSHJnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Arm_WristSHJnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Arm_WristSHJnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_Head_JawSHJnt
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Thumb_01_01SHJnt
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Thumb_01_02SHJnt
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Thumb_01_03SHJnt
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Finger_01_01SHJnt
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Finger_01_02SHJnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Finger_01_03SHJnt
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Finger_02_01SHJnt
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Finger_02_02SHJnt
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Finger_02_03SHJnt
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Finger_03_01SHJnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Finger_03_02SHJnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Finger_03_03SHJnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Finger_04_01SHJnt
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Finger_04_02SHJnt
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_l_Finger_04_03SHJnt
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Thumb_01_01SHJnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Thumb_01_02SHJnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Thumb_01_03SHJnt
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Finger_01_01SHJnt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Finger_01_02SHJnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Finger_01_03SHJnt
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Finger_02_01SHJnt
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Finger_02_02SHJnt
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Finger_02_03SHJnt
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Finger_03_01SHJnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Finger_03_02SHJnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Finger_03_03SHJnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Finger_04_01SHJnt
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Finger_04_02SHJnt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_r_Finger_04_03SHJnt
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharacter_RIG_Spine_03SHJnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: NPC_Model(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_SHJntGrp
+      parentName: NPC_Model(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_ROOTSHJnt
+      parentName: GameCharacter_RIG_SHJntGrp
+      position: {x: -0, y: 0.008491989, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_Spine_01SHJnt
+      parentName: GameCharacter_RIG_ROOTSHJnt
+      position: {x: -0.0007741519, y: -0.00002923509, z: 1.7838775e-19}
+      rotation: {x: 1.110223e-16, y: 0, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_Spine_02SHJnt
+      parentName: GameCharacter_RIG_Spine_01SHJnt
+      position: {x: -0.0007741519, y: 0.000007534724, z: 1.7022321e-19}
+      rotation: {x: 1.110223e-16, y: 0, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_Spine_03SHJnt
+      parentName: GameCharacter_RIG_Spine_02SHJnt
+      position: {x: -0.0007741519, y: 0.00011414739, z: 1.4655044e-19}
+      rotation: {x: 1.110223e-16, y: 0, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_Spine_04SHJnt
+      parentName: GameCharacter_RIG_Spine_03SHJnt
+      position: {x: -0.0007741519, y: 0.00019262568, z: 1.2912475e-19}
+      rotation: {x: 1.110223e-16, y: 0, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_Spine_TopSHJnt
+      parentName: GameCharacter_RIG_Spine_04SHJnt
+      position: {x: -0.0007741519, y: 0.00024279482, z: 1.1798497e-19}
+      rotation: {x: 1.110223e-16, y: 0, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Arm_ClavicleSHJnt
+      parentName: GameCharacter_RIG_Spine_TopSHJnt
+      position: {x: -6.661338e-18, y: -0.0005760809, z: -0.0002083915}
+      rotation: {x: -0.5396941, y: 0.45687014, z: -0.5396941, w: 0.45687014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Arm_ShoulderSHJnt
+      parentName: GameCharacter_RIG_l_Arm_ClavicleSHJnt
+      position: {x: -0.0006187222, y: 0.001157962, z: -2.220446e-18}
+      rotation: {x: -0.5666417, y: 0.5097222, z: -0.4075221, w: 0.50301725}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Arm_ElbowSHJnt
+      parentName: GameCharacter_RIG_l_Arm_ShoulderSHJnt
+      position: {x: -0.0022076776, y: 6.661338e-18, z: 5.551115e-19}
+      rotation: {x: -0.0024234948, y: 0.03209832, z: -0.019162206, w: 0.9992981}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Arm_WristSHJnt
+      parentName: GameCharacter_RIG_l_Arm_ElbowSHJnt
+      position: {x: -0.002451753, y: -8.881784e-18, z: -5.551115e-19}
+      rotation: {x: 0.093841694, y: -0.15829732, z: 0.031676993, w: 0.98241144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Thumb_01_01SHJnt
+      parentName: GameCharacter_RIG_l_Arm_WristSHJnt
+      position: {x: -0.000075043194, y: 0.000026856542, z: 0.00029434176}
+      rotation: {x: 0.3965691, y: 0.5637902, z: -0.29364362, w: 0.6623043}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Thumb_01_02SHJnt
+      parentName: GameCharacter_RIG_l_Thumb_01_01SHJnt
+      position: {x: -0.0001967248, y: -0.000039208204, z: -0.000030689047}
+      rotation: {x: 0.00052809704, y: -0.060089365, z: 0.17710641, w: 0.9823555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Thumb_01_03SHJnt
+      parentName: GameCharacter_RIG_l_Thumb_01_02SHJnt
+      position: {x: -0.000263771, y: 0.000034869907, z: 0.000012088242}
+      rotation: {x: -0.017323228, y: -0.023089848, z: -0.04851003, w: 0.99840546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Thumb_01_04SHJnt
+      parentName: GameCharacter_RIG_l_Thumb_01_03SHJnt
+      position: {x: -0.0003107824, y: -0.000009255909, z: 0.00003118414}
+      rotation: {x: 0, y: 0.043235637, z: -0, w: 0.9990649}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_01_01SHJnt
+      parentName: GameCharacter_RIG_l_Arm_WristSHJnt
+      position: {x: -0.0005559573, y: 0.0000618005, z: 0.00045307493}
+      rotation: {x: 0.052972298, y: 0.27535838, z: 0.01894266, w: 0.95969415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_01_02SHJnt
+      parentName: GameCharacter_RIG_l_Finger_01_01SHJnt
+      position: {x: -0.00024186342, y: 0.0000098042565, z: -0.000013304862}
+      rotation: {x: 0.0020626555, y: -0.022099609, z: -0.05377766, w: 0.9983062}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_01_03SHJnt
+      parentName: GameCharacter_RIG_l_Finger_01_02SHJnt
+      position: {x: -0.00020224517, y: -0.000028280987, z: 0.0000038645157}
+      rotation: {x: -0.00024956325, y: 0.0013995524, z: 0.09770961, w: 0.995214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_01_04SHJnt
+      parentName: GameCharacter_RIG_l_Finger_01_03SHJnt
+      position: {x: -0.00022639456, y: -0.000005570584, z: 0.0000012654311}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_02_01SHJnt
+      parentName: GameCharacter_RIG_l_Arm_WristSHJnt
+      position: {x: -0.0006299149, y: 0.00009281381, z: 0.00030216534}
+      rotation: {x: -0.011513826, y: 0.18089962, z: -0.04821967, w: 0.98225135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_02_02SHJnt
+      parentName: GameCharacter_RIG_l_Finger_02_01SHJnt
+      position: {x: -0.0002597898, y: -0.00003087957, z: 0.0000069362577}
+      rotation: {x: -0.000121007644, y: -0.0012133417, z: 0.041489385, w: 0.99913824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_02_03SHJnt
+      parentName: GameCharacter_RIG_l_Finger_02_02SHJnt
+      position: {x: -0.0002487266, y: -0.000029179362, z: 0.000010382136}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_02_04SHJnt
+      parentName: GameCharacter_RIG_l_Finger_02_03SHJnt
+      position: {x: -0.00024231836, y: -0.00003985165, z: 0.0000046466785}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_03_01SHJnt
+      parentName: GameCharacter_RIG_l_Arm_WristSHJnt
+      position: {x: -0.0006403956, y: 0.000048472317, z: 0.00012863438}
+      rotation: {x: -0.0021387336, y: 0.2658544, z: -0.05739547, w: 0.9623008}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_03_02SHJnt
+      parentName: GameCharacter_RIG_l_Finger_03_01SHJnt
+      position: {x: -0.00025247867, y: -0.0000144387095, z: -0.000058828075}
+      rotation: {x: 0.029146248, y: -0.19795339, z: -0.10114958, w: 0.9745429}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_03_03SHJnt
+      parentName: GameCharacter_RIG_l_Finger_03_02SHJnt
+      position: {x: -0.0001932469, y: -0.000063201995, z: 0.00004348191}
+      rotation: {x: -0.0007008552, y: 0.08550821, z: 0.15892495, w: 0.9835806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_03_04SHJnt
+      parentName: GameCharacter_RIG_l_Finger_03_03SHJnt
+      position: {x: -0.00025062374, y: 0.000014668053, z: -0.0000013568409}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_04_01SHJnt
+      parentName: GameCharacter_RIG_l_Arm_WristSHJnt
+      position: {x: -0.00067274005, y: -0.00003369395, z: -0.0000034433178}
+      rotation: {x: -0.07403092, y: 0.23635662, z: -0.21276678, w: 0.94519055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_04_02SHJnt
+      parentName: GameCharacter_RIG_l_Finger_04_01SHJnt
+      position: {x: -0.00017774475, y: -0.00007354936, z: -0.000029789919}
+      rotation: {x: 0.025317285, y: -0.103508174, z: 0.14414163, w: 0.983803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_04_03SHJnt
+      parentName: GameCharacter_RIG_l_Finger_04_02SHJnt
+      position: {x: -0.0001737137, y: -0.000015795553, z: 0.00002313245}
+      rotation: {x: 0.0033394296, y: 0.06519834, z: 0.043999888, w: 0.99689627}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Finger_04_04SHJnt
+      parentName: GameCharacter_RIG_l_Finger_04_03SHJnt
+      position: {x: -0.00021765192, y: -0.000017662835, z: 0.00000389632}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Arm_ClavicleSHJnt
+      parentName: GameCharacter_RIG_Spine_TopSHJnt
+      position: {x: -6.661338e-18, y: -0.0005760809, z: 0.0002083915}
+      rotation: {x: -0.5396941, y: 0.45687014, z: 0.5396941, w: -0.45687014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Arm_ShoulderSHJnt
+      parentName: GameCharacter_RIG_r_Arm_ClavicleSHJnt
+      position: {x: -0.0006187222, y: 0.001157962, z: 1.11022296e-17}
+      rotation: {x: 0.5097222, y: 0.5666416, z: -0.50301725, w: -0.40752196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Arm_ElbowSHJnt
+      parentName: GameCharacter_RIG_r_Arm_ShoulderSHJnt
+      position: {x: 0.0022076776, y: 6.661338e-18, z: 1.3877787e-18}
+      rotation: {x: -0.0024235102, y: 0.032098535, z: -0.019162418, w: 0.9992981}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Arm_WristSHJnt
+      parentName: GameCharacter_RIG_r_Arm_ElbowSHJnt
+      position: {x: 0.002451753, y: -8.881784e-18, z: -1.110223e-18}
+      rotation: {x: 0.093841724, y: -0.15829729, z: 0.03167697, w: 0.9824115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_01_01SHJnt
+      parentName: GameCharacter_RIG_r_Arm_WristSHJnt
+      position: {x: 0.0005559572, y: -0.000061800754, z: -0.00045307528}
+      rotation: {x: 0.05297264, y: 0.27535927, z: 0.018943932, w: 0.95969385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_01_02SHJnt
+      parentName: GameCharacter_RIG_r_Finger_01_01SHJnt
+      position: {x: 0.00024186342, y: -0.0000098042565, z: 0.000013304862}
+      rotation: {x: 0.0020625254, y: -0.022100223, z: -0.053778604, w: 0.99830616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_01_03SHJnt
+      parentName: GameCharacter_RIG_r_Finger_01_02SHJnt
+      position: {x: 0.00020224517, y: 0.000028280987, z: -0.0000038645157}
+      rotation: {x: -0.00024949905, y: 0.0013988145, z: 0.09770993, w: 0.9952139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_01_04SHJnt
+      parentName: GameCharacter_RIG_r_Finger_01_03SHJnt
+      position: {x: 0.00022639456, y: 0.000005570584, z: -0.0000012654311}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_02_01SHJnt
+      parentName: GameCharacter_RIG_r_Arm_WristSHJnt
+      position: {x: 0.0006299148, y: -0.00009281406, z: -0.00030216566}
+      rotation: {x: -0.011513692, y: 0.18089896, z: -0.048219584, w: 0.98225147}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_02_02SHJnt
+      parentName: GameCharacter_RIG_r_Finger_02_01SHJnt
+      position: {x: 0.0002597898, y: 0.00003087957, z: -0.0000069362577}
+      rotation: {x: -0.00012097787, y: -0.0012123287, z: 0.04148997, w: 0.99913824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_02_03SHJnt
+      parentName: GameCharacter_RIG_r_Finger_02_02SHJnt
+      position: {x: 0.0002487266, y: 0.000029179362, z: -0.000010382136}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_02_04SHJnt
+      parentName: GameCharacter_RIG_r_Finger_02_03SHJnt
+      position: {x: 0.00024231836, y: 0.00003985165, z: -0.0000046466785}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_03_01SHJnt
+      parentName: GameCharacter_RIG_r_Arm_WristSHJnt
+      position: {x: 0.00064039556, y: -0.000048472564, z: -0.0001286347}
+      rotation: {x: -0.0021383984, y: 0.26585463, z: -0.057394914, w: 0.9623007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_03_02SHJnt
+      parentName: GameCharacter_RIG_r_Finger_03_01SHJnt
+      position: {x: 0.00025247867, y: 0.0000144387095, z: 0.000058828075}
+      rotation: {x: 0.029146105, y: -0.19795078, z: -0.10114945, w: 0.97454333}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_03_03SHJnt
+      parentName: GameCharacter_RIG_r_Finger_03_02SHJnt
+      position: {x: 0.0001932469, y: 0.000063201995, z: -0.00004348191}
+      rotation: {x: -0.00070087984, y: 0.085503906, z: 0.15892291, w: 0.98358124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_03_04SHJnt
+      parentName: GameCharacter_RIG_r_Finger_03_03SHJnt
+      position: {x: 0.00025062374, y: -0.000014668053, z: 0.0000013568409}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_04_01SHJnt
+      parentName: GameCharacter_RIG_r_Arm_WristSHJnt
+      position: {x: 0.0006727399, y: 0.0000336937, z: 0.0000034429925}
+      rotation: {x: -0.074031055, y: 0.23635575, z: -0.21276748, w: 0.94519067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_04_02SHJnt
+      parentName: GameCharacter_RIG_r_Finger_04_01SHJnt
+      position: {x: 0.00017774475, y: 0.00007354936, z: 0.000029789919}
+      rotation: {x: 0.025317539, y: -0.10351017, z: 0.14414357, w: 0.9838025}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_04_03SHJnt
+      parentName: GameCharacter_RIG_r_Finger_04_02SHJnt
+      position: {x: 0.0001737137, y: 0.000015795553, z: -0.00002313245}
+      rotation: {x: 0.0033395484, y: 0.06519829, z: 0.044002093, w: 0.9968961}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Finger_04_04SHJnt
+      parentName: GameCharacter_RIG_r_Finger_04_03SHJnt
+      position: {x: 0.00021765192, y: 0.000017662835, z: -0.00000389632}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Thumb_01_01SHJnt
+      parentName: GameCharacter_RIG_r_Arm_WristSHJnt
+      position: {x: 0.00007504311, y: -0.000026856791, z: -0.00029434208}
+      rotation: {x: 0.39656988, y: 0.563791, z: -0.2936427, w: 0.66230357}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Thumb_01_02SHJnt
+      parentName: GameCharacter_RIG_r_Thumb_01_01SHJnt
+      position: {x: 0.0001967248, y: 0.000039208204, z: 0.000030689047}
+      rotation: {x: 0.0005283654, y: -0.060091376, z: 0.17710559, w: 0.9823556}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Thumb_01_03SHJnt
+      parentName: GameCharacter_RIG_r_Thumb_01_02SHJnt
+      position: {x: 0.000263771, y: -0.000034869907, z: -0.000012088242}
+      rotation: {x: -0.017323526, y: -0.023089241, z: -0.048510406, w: 0.9984055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Thumb_01_04SHJnt
+      parentName: GameCharacter_RIG_r_Thumb_01_03SHJnt
+      position: {x: 0.0003107824, y: 0.000009255909, z: -0.00003118414}
+      rotation: {x: 0, y: 0.043235637, z: -0, w: 0.9990649}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_Neck_01SHJnt
+      parentName: GameCharacter_RIG_Spine_TopSHJnt
+      position: {x: -0.00044229112, y: 2.0816681e-19, z: 9.8208356e-20}
+      rotation: {x: 1.110223e-16, y: 0, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_Neck_02SHJnt
+      parentName: GameCharacter_RIG_Neck_01SHJnt
+      position: {x: -0.00044229112, y: 0, z: 9.8208356e-20}
+      rotation: {x: 1.110223e-16, y: 0, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_Neck_TopSHJnt
+      parentName: GameCharacter_RIG_Neck_02SHJnt
+      position: {x: -0.00044229112, y: -6.938894e-20, z: 9.8208356e-20}
+      rotation: {x: 1.110223e-16, y: 0, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_Head_JawSHJnt
+      parentName: GameCharacter_RIG_Neck_TopSHJnt
+      position: {x: -0.00009064636, y: -0.00037566148, z: 1.3733768e-19}
+      rotation: {x: 1.1102232e-16, y: -8.7157646e-33, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_Head_JawEndSHJnt
+      parentName: GameCharacter_RIG_Head_JawSHJnt
+      position: {x: -0.00066343666, y: -0.00026537466, z: -5.892501e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_Head_TopSHJnt
+      parentName: GameCharacter_RIG_Neck_TopSHJnt
+      position: {x: -0.0015922479, y: -6.938894e-20, z: 3.5355005e-19}
+      rotation: {x: 1.110223e-16, y: 0, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Eye_01SHJnt
+      parentName: GameCharacter_RIG_Head_TopSHJnt
+      position: {x: 0.0007728414, y: -0.00097101036, z: -0.00035446035}
+      rotation: {x: 3.3306693e-16, y: -2.2204463e-16, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Eye_01SHJnt
+      parentName: GameCharacter_RIG_Head_TopSHJnt
+      position: {x: 0.0007728414, y: -0.00097101036, z: 0.00035446035}
+      rotation: {x: 3.3306693e-16, y: -2.2204463e-16, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Leg_HipSHJnt
+      parentName: GameCharacter_RIG_ROOTSHJnt
+      position: {x: 0.0005307493, y: 0.0002075559, z: -0.00081272516}
+      rotation: {x: -0.0815308, y: 0.7048602, z: -0.70239073, w: -0.056321453}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Leg_KneeSHJnt
+      parentName: GameCharacter_RIG_l_Leg_HipSHJnt
+      position: {x: -0.0036483624, y: 3.6082247e-18, z: -9.367507e-18}
+      rotation: {x: 0, y: -0.030181013, z: -0, w: 0.9995445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Leg_AnkleSHJnt
+      parentName: GameCharacter_RIG_l_Leg_KneeSHJnt
+      position: {x: -0.003674914, y: 3.330669e-18, z: -5.551115e-19}
+      rotation: {x: -0.07498324, y: 0.03986347, z: 0.10089783, w: 0.9912659}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Leg_BallSHJnt
+      parentName: GameCharacter_RIG_l_Leg_AnkleSHJnt
+      position: {x: -0.00079612393, y: -5.551115e-19, z: 0.0009874662}
+      rotation: {x: -0.0000033581691, y: 0.7071068, z: 0.0000033581691, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_l_Leg_ToeSHJnt
+      parentName: GameCharacter_RIG_l_Leg_BallSHJnt
+      position: {x: -0.0005924797, y: 0, z: -5.2319634e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Leg_HipSHJnt
+      parentName: GameCharacter_RIG_ROOTSHJnt
+      position: {x: 0.0005307493, y: 0.0002075559, z: 0.00081272516}
+      rotation: {x: -0.7048602, y: -0.08153079, z: -0.05632147, w: 0.70239073}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Leg_KneeSHJnt
+      parentName: GameCharacter_RIG_r_Leg_HipSHJnt
+      position: {x: 0.0036483624, y: 2.220446e-18, z: 1.6653345e-18}
+      rotation: {x: 0, y: -0.030181058, z: -0, w: 0.9995445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Leg_AnkleSHJnt
+      parentName: GameCharacter_RIG_r_Leg_KneeSHJnt
+      position: {x: 0.003674914, y: 2.4980017e-18, z: 0}
+      rotation: {x: -0.07498324, y: 0.03986347, z: 0.10089783, w: 0.9912659}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Leg_BallSHJnt
+      parentName: GameCharacter_RIG_r_Leg_AnkleSHJnt
+      position: {x: 0.00079612393, y: 1.110223e-18, z: -0.0009874662}
+      rotation: {x: -0.000003360636, y: 0.7071068, z: 0.000003360636, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharacter_RIG_r_Leg_ToeSHJnt
+      parentName: GameCharacter_RIG_r_Leg_BallSHJnt
+      position: {x: 0.0005924797, y: -1.110223e-18, z: 2.5291662e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: NPC_Model(Clone)
+      position: {x: -0, y: 0.007825277, z: -0.000112147514}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QDC_Lowpoly
+      parentName: polySurface2
+      position: {x: -0, y: -0.007825277, z: 0.000112147514}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -234,10 +1022,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

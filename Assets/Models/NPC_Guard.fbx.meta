@@ -1,154 +1,231 @@
 fileFormatVersion: 2
-guid: 4919906d2a58fb74380d05c01fc67c76
+guid: 9bfdee94408a74546b185db87e16fc10
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: AnimaticMale_Head_TopSHJnt
-    100002: AnimaticMale_l_Arm_ClavicleSHJnt
-    100004: AnimaticMale_l_Arm_ElbowSHJnt
-    100006: AnimaticMale_l_Arm_ShoulderSHJnt
-    100008: AnimaticMale_l_Arm_WristSHJnt
-    100010: AnimaticMale_l_Finger_01_01SHJnt
-    100012: AnimaticMale_l_Finger_01_02SHJnt
-    100014: AnimaticMale_l_Finger_01_03SHJnt
-    100016: AnimaticMale_l_Finger_01_04SHJnt
-    100018: AnimaticMale_l_Finger_02_01SHJnt
-    100020: AnimaticMale_l_Finger_02_02SHJnt
-    100022: AnimaticMale_l_Finger_02_03SHJnt
-    100024: AnimaticMale_l_Finger_02_04SHJnt
-    100026: AnimaticMale_l_Finger_03_01SHJnt
-    100028: AnimaticMale_l_Finger_03_02SHJnt
-    100030: AnimaticMale_l_Finger_03_03SHJnt
-    100032: AnimaticMale_l_Finger_03_04SHJnt
-    100034: AnimaticMale_l_Finger_04_01SHJnt
-    100036: AnimaticMale_l_Finger_04_02SHJnt
-    100038: AnimaticMale_l_Finger_04_03SHJnt
-    100040: AnimaticMale_l_Finger_04_04SHJnt
-    100042: AnimaticMale_l_Leg_AnkleSHJnt
-    100044: AnimaticMale_l_Leg_BallSHJnt
-    100046: AnimaticMale_l_Leg_HipSHJnt
-    100048: AnimaticMale_l_Leg_KneeSHJnt
-    100050: AnimaticMale_l_Leg_ToeSHJnt
-    100052: AnimaticMale_l_Thumb_01_01SHJnt
-    100054: AnimaticMale_l_Thumb_01_02SHJnt
-    100056: AnimaticMale_l_Thumb_01_03SHJnt
-    100058: AnimaticMale_l_Thumb_01_04SHJnt
-    100060: AnimaticMale_Mesh
-    100062: AnimaticMale_Neck_01SHJnt
-    100064: AnimaticMale_Neck_02SHJnt
-    100066: AnimaticMale_Neck_TopSHJnt
-    100068: AnimaticMale_r_Arm_ClavicleSHJnt
-    100070: AnimaticMale_r_Arm_ElbowSHJnt
-    100072: AnimaticMale_r_Arm_ShoulderSHJnt
-    100074: AnimaticMale_r_Arm_WristSHJnt
-    100076: AnimaticMale_r_Finger_01_01SHJnt
-    100078: AnimaticMale_r_Finger_01_02SHJnt
-    100080: AnimaticMale_r_Finger_01_03SHJnt
-    100082: AnimaticMale_r_Finger_01_04SHJnt
-    100084: AnimaticMale_r_Finger_02_01SHJnt
-    100086: AnimaticMale_r_Finger_02_02SHJnt
-    100088: AnimaticMale_r_Finger_02_03SHJnt
-    100090: AnimaticMale_r_Finger_02_04SHJnt
-    100092: AnimaticMale_r_Finger_03_01SHJnt
-    100094: AnimaticMale_r_Finger_03_02SHJnt
-    100096: AnimaticMale_r_Finger_03_03SHJnt
-    100098: AnimaticMale_r_Finger_03_04SHJnt
-    100100: AnimaticMale_r_Finger_04_01SHJnt
-    100102: AnimaticMale_r_Finger_04_02SHJnt
-    100104: AnimaticMale_r_Finger_04_03SHJnt
-    100106: AnimaticMale_r_Finger_04_04SHJnt
-    100108: AnimaticMale_r_Leg_AnkleSHJnt
-    100110: AnimaticMale_r_Leg_BallSHJnt
-    100112: AnimaticMale_r_Leg_HipSHJnt
-    100114: AnimaticMale_r_Leg_KneeSHJnt
-    100116: AnimaticMale_r_Leg_ToeSHJnt
-    100118: AnimaticMale_r_Thumb_01_01SHJnt
-    100120: AnimaticMale_r_Thumb_01_02SHJnt
-    100122: AnimaticMale_r_Thumb_01_03SHJnt
-    100124: AnimaticMale_r_Thumb_01_04SHJnt
-    100126: AnimaticMale_ROOTSHJnt
-    100128: AnimaticMale_SHJntGrp
-    100130: AnimaticMale_Spine_01SHJnt
-    100132: AnimaticMale_Spine_02SHJnt
-    100134: AnimaticMale_Spine_03SHJnt
-    100136: AnimaticMale_Spine_04SHJnt
-    100138: AnimaticMale_Spine_TopSHJnt
-    100140: //RootNode
-    400000: AnimaticMale_Head_TopSHJnt
-    400002: AnimaticMale_l_Arm_ClavicleSHJnt
-    400004: AnimaticMale_l_Arm_ElbowSHJnt
-    400006: AnimaticMale_l_Arm_ShoulderSHJnt
-    400008: AnimaticMale_l_Arm_WristSHJnt
-    400010: AnimaticMale_l_Finger_01_01SHJnt
-    400012: AnimaticMale_l_Finger_01_02SHJnt
-    400014: AnimaticMale_l_Finger_01_03SHJnt
-    400016: AnimaticMale_l_Finger_01_04SHJnt
-    400018: AnimaticMale_l_Finger_02_01SHJnt
-    400020: AnimaticMale_l_Finger_02_02SHJnt
-    400022: AnimaticMale_l_Finger_02_03SHJnt
-    400024: AnimaticMale_l_Finger_02_04SHJnt
-    400026: AnimaticMale_l_Finger_03_01SHJnt
-    400028: AnimaticMale_l_Finger_03_02SHJnt
-    400030: AnimaticMale_l_Finger_03_03SHJnt
-    400032: AnimaticMale_l_Finger_03_04SHJnt
-    400034: AnimaticMale_l_Finger_04_01SHJnt
-    400036: AnimaticMale_l_Finger_04_02SHJnt
-    400038: AnimaticMale_l_Finger_04_03SHJnt
-    400040: AnimaticMale_l_Finger_04_04SHJnt
-    400042: AnimaticMale_l_Leg_AnkleSHJnt
-    400044: AnimaticMale_l_Leg_BallSHJnt
-    400046: AnimaticMale_l_Leg_HipSHJnt
-    400048: AnimaticMale_l_Leg_KneeSHJnt
-    400050: AnimaticMale_l_Leg_ToeSHJnt
-    400052: AnimaticMale_l_Thumb_01_01SHJnt
-    400054: AnimaticMale_l_Thumb_01_02SHJnt
-    400056: AnimaticMale_l_Thumb_01_03SHJnt
-    400058: AnimaticMale_l_Thumb_01_04SHJnt
-    400060: AnimaticMale_Mesh
-    400062: AnimaticMale_Neck_01SHJnt
-    400064: AnimaticMale_Neck_02SHJnt
-    400066: AnimaticMale_Neck_TopSHJnt
-    400068: AnimaticMale_r_Arm_ClavicleSHJnt
-    400070: AnimaticMale_r_Arm_ElbowSHJnt
-    400072: AnimaticMale_r_Arm_ShoulderSHJnt
-    400074: AnimaticMale_r_Arm_WristSHJnt
-    400076: AnimaticMale_r_Finger_01_01SHJnt
-    400078: AnimaticMale_r_Finger_01_02SHJnt
-    400080: AnimaticMale_r_Finger_01_03SHJnt
-    400082: AnimaticMale_r_Finger_01_04SHJnt
-    400084: AnimaticMale_r_Finger_02_01SHJnt
-    400086: AnimaticMale_r_Finger_02_02SHJnt
-    400088: AnimaticMale_r_Finger_02_03SHJnt
-    400090: AnimaticMale_r_Finger_02_04SHJnt
-    400092: AnimaticMale_r_Finger_03_01SHJnt
-    400094: AnimaticMale_r_Finger_03_02SHJnt
-    400096: AnimaticMale_r_Finger_03_03SHJnt
-    400098: AnimaticMale_r_Finger_03_04SHJnt
-    400100: AnimaticMale_r_Finger_04_01SHJnt
-    400102: AnimaticMale_r_Finger_04_02SHJnt
-    400104: AnimaticMale_r_Finger_04_03SHJnt
-    400106: AnimaticMale_r_Finger_04_04SHJnt
-    400108: AnimaticMale_r_Leg_AnkleSHJnt
-    400110: AnimaticMale_r_Leg_BallSHJnt
-    400112: AnimaticMale_r_Leg_HipSHJnt
-    400114: AnimaticMale_r_Leg_KneeSHJnt
-    400116: AnimaticMale_r_Leg_ToeSHJnt
-    400118: AnimaticMale_r_Thumb_01_01SHJnt
-    400120: AnimaticMale_r_Thumb_01_02SHJnt
-    400122: AnimaticMale_r_Thumb_01_03SHJnt
-    400124: AnimaticMale_r_Thumb_01_04SHJnt
-    400126: AnimaticMale_ROOTSHJnt
-    400128: AnimaticMale_SHJntGrp
-    400130: AnimaticMale_Spine_01SHJnt
-    400132: AnimaticMale_Spine_02SHJnt
-    400134: AnimaticMale_Spine_03SHJnt
-    400136: AnimaticMale_Spine_04SHJnt
-    400138: AnimaticMale_Spine_TopSHJnt
-    400140: //RootNode
-    2100000: lambert1
-    4300000: AnimaticMale_Mesh
+    100000: Belt_01
+    100002: Belt_02
+    100004: Beltloop_01
+    100006: Beltloop_02
+    100008: Boots_01
+    100010: Boots_02
+    100012: Glove_01
+    100014: Glove_02
+    100016: Guard
+    100018: Guard_RIG_Head_JawEndSHJnt
+    100020: Guard_RIG_Head_JawSHJnt
+    100022: Guard_RIG_Head_TopSHJnt
+    100024: Guard_RIG_l_Arm_ClavicleSHJnt
+    100026: Guard_RIG_l_Arm_ElbowSHJnt
+    100028: Guard_RIG_l_Arm_ShoulderSHJnt
+    100030: Guard_RIG_l_Arm_WristSHJnt
+    100032: Guard_RIG_l_Eye_01SHJnt
+    100034: Guard_RIG_l_Finger_01_01SHJnt
+    100036: Guard_RIG_l_Finger_01_02SHJnt
+    100038: Guard_RIG_l_Finger_01_03SHJnt
+    100040: Guard_RIG_l_Finger_01_04SHJnt
+    100042: Guard_RIG_l_Finger_02_01SHJnt
+    100044: Guard_RIG_l_Finger_02_02SHJnt
+    100046: Guard_RIG_l_Finger_02_03SHJnt
+    100048: Guard_RIG_l_Finger_02_04SHJnt
+    100050: Guard_RIG_l_Finger_03_01SHJnt
+    100052: Guard_RIG_l_Finger_03_02SHJnt
+    100054: Guard_RIG_l_Finger_03_03SHJnt
+    100056: Guard_RIG_l_Finger_03_04SHJnt
+    100058: Guard_RIG_l_Finger_04_01SHJnt
+    100060: Guard_RIG_l_Finger_04_02SHJnt
+    100062: Guard_RIG_l_Finger_04_03SHJnt
+    100064: Guard_RIG_l_Finger_04_04SHJnt
+    100066: Guard_RIG_l_Leg_AnkleSHJnt
+    100068: Guard_RIG_l_Leg_BallSHJnt
+    100070: Guard_RIG_l_Leg_HipSHJnt
+    100072: Guard_RIG_l_Leg_KneeSHJnt
+    100074: Guard_RIG_l_Leg_ToeSHJnt
+    100076: Guard_RIG_l_Thumb_01_01SHJnt
+    100078: Guard_RIG_l_Thumb_01_02SHJnt
+    100080: Guard_RIG_l_Thumb_01_03SHJnt
+    100082: Guard_RIG_l_Thumb_01_04SHJnt
+    100084: Guard_RIG_Neck_01SHJnt
+    100086: Guard_RIG_Neck_02SHJnt
+    100088: Guard_RIG_Neck_TopSHJnt
+    100090: Guard_RIG_r_Arm_ClavicleSHJnt
+    100092: Guard_RIG_r_Arm_ElbowSHJnt
+    100094: Guard_RIG_r_Arm_ShoulderSHJnt
+    100096: Guard_RIG_r_Arm_WristSHJnt
+    100098: Guard_RIG_r_Eye_01SHJnt
+    100100: Guard_RIG_r_Finger_01_01SHJnt
+    100102: Guard_RIG_r_Finger_01_02SHJnt
+    100104: Guard_RIG_r_Finger_01_03SHJnt
+    100106: Guard_RIG_r_Finger_01_04SHJnt
+    100108: Guard_RIG_r_Finger_02_01SHJnt
+    100110: Guard_RIG_r_Finger_02_02SHJnt
+    100112: Guard_RIG_r_Finger_02_03SHJnt
+    100114: Guard_RIG_r_Finger_02_04SHJnt
+    100116: Guard_RIG_r_Finger_03_01SHJnt
+    100118: Guard_RIG_r_Finger_03_02SHJnt
+    100120: Guard_RIG_r_Finger_03_03SHJnt
+    100122: Guard_RIG_r_Finger_03_04SHJnt
+    100124: Guard_RIG_r_Finger_04_01SHJnt
+    100126: Guard_RIG_r_Finger_04_02SHJnt
+    100128: Guard_RIG_r_Finger_04_03SHJnt
+    100130: Guard_RIG_r_Finger_04_04SHJnt
+    100132: Guard_RIG_r_Leg_AnkleSHJnt
+    100134: Guard_RIG_r_Leg_BallSHJnt
+    100136: Guard_RIG_r_Leg_HipSHJnt
+    100138: Guard_RIG_r_Leg_KneeSHJnt
+    100140: Guard_RIG_r_Leg_ToeSHJnt
+    100142: Guard_RIG_r_Thumb_01_01SHJnt
+    100144: Guard_RIG_r_Thumb_01_02SHJnt
+    100146: Guard_RIG_r_Thumb_01_03SHJnt
+    100148: Guard_RIG_r_Thumb_01_04SHJnt
+    100150: Guard_RIG_ROOTSHJnt
+    100152: Guard_RIG_SHJntGrp
+    100154: Guard_RIG_Spine_01SHJnt
+    100156: Guard_RIG_Spine_02SHJnt
+    100158: Guard_RIG_Spine_03SHJnt
+    100160: Guard_RIG_Spine_04SHJnt
+    100162: Guard_RIG_Spine_TopSHJnt
+    100164: Guard_RIG_Sword_AuxSHJnt
+    100166: Helmet
+    100168: Jacket
+    100170: Mask
+    100172: Neck
+    100174: //RootNode
+    100176: Pants
+    100178: Sash_01
+    100180: Sash_02
+    100182: Sword
+    100184: Swordholder
+    400000: Belt_01
+    400002: Belt_02
+    400004: Beltloop_01
+    400006: Beltloop_02
+    400008: Boots_01
+    400010: Boots_02
+    400012: Glove_01
+    400014: Glove_02
+    400016: Guard
+    400018: Guard_RIG_Head_JawEndSHJnt
+    400020: Guard_RIG_Head_JawSHJnt
+    400022: Guard_RIG_Head_TopSHJnt
+    400024: Guard_RIG_l_Arm_ClavicleSHJnt
+    400026: Guard_RIG_l_Arm_ElbowSHJnt
+    400028: Guard_RIG_l_Arm_ShoulderSHJnt
+    400030: Guard_RIG_l_Arm_WristSHJnt
+    400032: Guard_RIG_l_Eye_01SHJnt
+    400034: Guard_RIG_l_Finger_01_01SHJnt
+    400036: Guard_RIG_l_Finger_01_02SHJnt
+    400038: Guard_RIG_l_Finger_01_03SHJnt
+    400040: Guard_RIG_l_Finger_01_04SHJnt
+    400042: Guard_RIG_l_Finger_02_01SHJnt
+    400044: Guard_RIG_l_Finger_02_02SHJnt
+    400046: Guard_RIG_l_Finger_02_03SHJnt
+    400048: Guard_RIG_l_Finger_02_04SHJnt
+    400050: Guard_RIG_l_Finger_03_01SHJnt
+    400052: Guard_RIG_l_Finger_03_02SHJnt
+    400054: Guard_RIG_l_Finger_03_03SHJnt
+    400056: Guard_RIG_l_Finger_03_04SHJnt
+    400058: Guard_RIG_l_Finger_04_01SHJnt
+    400060: Guard_RIG_l_Finger_04_02SHJnt
+    400062: Guard_RIG_l_Finger_04_03SHJnt
+    400064: Guard_RIG_l_Finger_04_04SHJnt
+    400066: Guard_RIG_l_Leg_AnkleSHJnt
+    400068: Guard_RIG_l_Leg_BallSHJnt
+    400070: Guard_RIG_l_Leg_HipSHJnt
+    400072: Guard_RIG_l_Leg_KneeSHJnt
+    400074: Guard_RIG_l_Leg_ToeSHJnt
+    400076: Guard_RIG_l_Thumb_01_01SHJnt
+    400078: Guard_RIG_l_Thumb_01_02SHJnt
+    400080: Guard_RIG_l_Thumb_01_03SHJnt
+    400082: Guard_RIG_l_Thumb_01_04SHJnt
+    400084: Guard_RIG_Neck_01SHJnt
+    400086: Guard_RIG_Neck_02SHJnt
+    400088: Guard_RIG_Neck_TopSHJnt
+    400090: Guard_RIG_r_Arm_ClavicleSHJnt
+    400092: Guard_RIG_r_Arm_ElbowSHJnt
+    400094: Guard_RIG_r_Arm_ShoulderSHJnt
+    400096: Guard_RIG_r_Arm_WristSHJnt
+    400098: Guard_RIG_r_Eye_01SHJnt
+    400100: Guard_RIG_r_Finger_01_01SHJnt
+    400102: Guard_RIG_r_Finger_01_02SHJnt
+    400104: Guard_RIG_r_Finger_01_03SHJnt
+    400106: Guard_RIG_r_Finger_01_04SHJnt
+    400108: Guard_RIG_r_Finger_02_01SHJnt
+    400110: Guard_RIG_r_Finger_02_02SHJnt
+    400112: Guard_RIG_r_Finger_02_03SHJnt
+    400114: Guard_RIG_r_Finger_02_04SHJnt
+    400116: Guard_RIG_r_Finger_03_01SHJnt
+    400118: Guard_RIG_r_Finger_03_02SHJnt
+    400120: Guard_RIG_r_Finger_03_03SHJnt
+    400122: Guard_RIG_r_Finger_03_04SHJnt
+    400124: Guard_RIG_r_Finger_04_01SHJnt
+    400126: Guard_RIG_r_Finger_04_02SHJnt
+    400128: Guard_RIG_r_Finger_04_03SHJnt
+    400130: Guard_RIG_r_Finger_04_04SHJnt
+    400132: Guard_RIG_r_Leg_AnkleSHJnt
+    400134: Guard_RIG_r_Leg_BallSHJnt
+    400136: Guard_RIG_r_Leg_HipSHJnt
+    400138: Guard_RIG_r_Leg_KneeSHJnt
+    400140: Guard_RIG_r_Leg_ToeSHJnt
+    400142: Guard_RIG_r_Thumb_01_01SHJnt
+    400144: Guard_RIG_r_Thumb_01_02SHJnt
+    400146: Guard_RIG_r_Thumb_01_03SHJnt
+    400148: Guard_RIG_r_Thumb_01_04SHJnt
+    400150: Guard_RIG_ROOTSHJnt
+    400152: Guard_RIG_SHJntGrp
+    400154: Guard_RIG_Spine_01SHJnt
+    400156: Guard_RIG_Spine_02SHJnt
+    400158: Guard_RIG_Spine_03SHJnt
+    400160: Guard_RIG_Spine_04SHJnt
+    400162: Guard_RIG_Spine_TopSHJnt
+    400164: Guard_RIG_Sword_AuxSHJnt
+    400166: Helmet
+    400168: Jacket
+    400170: Mask
+    400172: Neck
+    400174: //RootNode
+    400176: Pants
+    400178: Sash_01
+    400180: Sash_02
+    400182: Sword
+    400184: Swordholder
+    2100000: lambert2
+    2100002: Guard_LowPoly_Helmet_initialShadingGroup1
+    4300000: Jacket
+    4300002: Swordholder
+    4300004: Neck
+    4300006: Beltloop_02
+    4300008: Sash_01
+    4300010: Mask
+    4300012: Belt_01
+    4300014: Beltloop_01
+    4300016: Helmet
+    4300018: Sword
+    4300020: Belt_02
+    4300022: Pants
+    4300024: Glove_01
+    4300026: Glove_02
+    4300028: Sash_02
+    4300030: Boots_02
+    4300032: Boots_01
     9500000: //RootNode
-    13700000: AnimaticMale_Mesh
+    13700000: Belt_01
+    13700002: Belt_02
+    13700004: Beltloop_01
+    13700006: Beltloop_02
+    13700008: Boots_01
+    13700010: Boots_02
+    13700012: Glove_01
+    13700014: Glove_02
+    13700016: Helmet
+    13700018: Jacket
+    13700020: Mask
+    13700022: Neck
+    13700024: Pants
+    13700026: Sash_01
+    13700028: Sash_02
+    13700030: Sword
+    13700032: Swordholder
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -180,7 +257,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.009
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -200,7 +277,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.000089999994
+    previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
@@ -212,7 +289,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 2
     human:
-    - boneName: AnimaticMale_ROOTSHJnt
+    - boneName: Guard_RIG_ROOTSHJnt
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -220,7 +297,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Leg_HipSHJnt
+    - boneName: Guard_RIG_l_Leg_HipSHJnt
       humanName: LeftUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -228,7 +305,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Leg_HipSHJnt
+    - boneName: Guard_RIG_r_Leg_HipSHJnt
       humanName: RightUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -236,7 +313,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Leg_KneeSHJnt
+    - boneName: Guard_RIG_l_Leg_KneeSHJnt
       humanName: LeftLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -244,7 +321,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Leg_KneeSHJnt
+    - boneName: Guard_RIG_r_Leg_KneeSHJnt
       humanName: RightLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -252,7 +329,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Leg_AnkleSHJnt
+    - boneName: Guard_RIG_l_Leg_BallSHJnt
       humanName: LeftFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -260,7 +337,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Leg_AnkleSHJnt
+    - boneName: Guard_RIG_r_Leg_BallSHJnt
       humanName: RightFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -268,7 +345,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_Spine_01SHJnt
+    - boneName: Guard_RIG_Spine_01SHJnt
       humanName: Spine
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -276,7 +353,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_Spine_02SHJnt
+    - boneName: Guard_RIG_Spine_02SHJnt
       humanName: Chest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -284,7 +361,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_Neck_01SHJnt
+    - boneName: Guard_RIG_Neck_01SHJnt
       humanName: Neck
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -292,7 +369,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_Neck_TopSHJnt
+    - boneName: Guard_RIG_Neck_TopSHJnt
       humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -300,7 +377,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Arm_ClavicleSHJnt
+    - boneName: Guard_RIG_l_Arm_ClavicleSHJnt
       humanName: LeftShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -308,7 +385,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Arm_ClavicleSHJnt
+    - boneName: Guard_RIG_r_Arm_ClavicleSHJnt
       humanName: RightShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -316,7 +393,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Arm_ShoulderSHJnt
+    - boneName: Guard_RIG_l_Arm_ShoulderSHJnt
       humanName: LeftUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -324,7 +401,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Arm_ShoulderSHJnt
+    - boneName: Guard_RIG_r_Arm_ShoulderSHJnt
       humanName: RightUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -332,7 +409,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Arm_ElbowSHJnt
+    - boneName: Guard_RIG_l_Arm_ElbowSHJnt
       humanName: LeftLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -340,7 +417,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Arm_ElbowSHJnt
+    - boneName: Guard_RIG_r_Arm_ElbowSHJnt
       humanName: RightLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -348,7 +425,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Arm_WristSHJnt
+    - boneName: Guard_RIG_l_Arm_WristSHJnt
       humanName: LeftHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -356,7 +433,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Arm_WristSHJnt
+    - boneName: Guard_RIG_r_Arm_WristSHJnt
       humanName: RightHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -364,7 +441,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Leg_ToeSHJnt
+    - boneName: Guard_RIG_l_Leg_ToeSHJnt
       humanName: LeftToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -372,7 +449,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Leg_ToeSHJnt
+    - boneName: Guard_RIG_r_Leg_ToeSHJnt
       humanName: RightToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -380,7 +457,15 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Thumb_01_01SHJnt
+    - boneName: Guard_RIG_Head_JawSHJnt
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_RIG_l_Thumb_01_01SHJnt
       humanName: Left Thumb Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -388,7 +473,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Thumb_01_02SHJnt
+    - boneName: Guard_RIG_l_Thumb_01_02SHJnt
       humanName: Left Thumb Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -396,7 +481,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Thumb_01_03SHJnt
+    - boneName: Guard_RIG_l_Thumb_01_03SHJnt
       humanName: Left Thumb Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -404,7 +489,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Finger_01_01SHJnt
+    - boneName: Guard_RIG_l_Finger_01_01SHJnt
       humanName: Left Index Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -412,7 +497,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Finger_01_02SHJnt
+    - boneName: Guard_RIG_l_Finger_01_02SHJnt
       humanName: Left Index Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -420,7 +505,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Finger_01_03SHJnt
+    - boneName: Guard_RIG_l_Finger_01_03SHJnt
       humanName: Left Index Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -428,7 +513,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Finger_02_01SHJnt
+    - boneName: Guard_RIG_l_Finger_02_01SHJnt
       humanName: Left Middle Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -436,7 +521,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Finger_02_02SHJnt
+    - boneName: Guard_RIG_l_Finger_02_02SHJnt
       humanName: Left Middle Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -444,7 +529,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Finger_02_03SHJnt
+    - boneName: Guard_RIG_l_Finger_02_03SHJnt
       humanName: Left Middle Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -452,7 +537,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Finger_03_01SHJnt
+    - boneName: Guard_RIG_l_Finger_03_01SHJnt
       humanName: Left Ring Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -460,7 +545,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Finger_03_02SHJnt
+    - boneName: Guard_RIG_l_Finger_03_02SHJnt
       humanName: Left Ring Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -468,7 +553,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Finger_03_03SHJnt
+    - boneName: Guard_RIG_l_Finger_03_03SHJnt
       humanName: Left Ring Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -476,7 +561,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Finger_04_01SHJnt
+    - boneName: Guard_RIG_l_Finger_04_01SHJnt
       humanName: Left Little Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -484,7 +569,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Finger_04_02SHJnt
+    - boneName: Guard_RIG_l_Finger_04_02SHJnt
       humanName: Left Little Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -492,7 +577,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_l_Finger_04_03SHJnt
+    - boneName: Guard_RIG_l_Finger_04_03SHJnt
       humanName: Left Little Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -500,7 +585,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Thumb_01_01SHJnt
+    - boneName: Guard_RIG_r_Thumb_01_01SHJnt
       humanName: Right Thumb Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -508,7 +593,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Thumb_01_02SHJnt
+    - boneName: Guard_RIG_r_Thumb_01_02SHJnt
       humanName: Right Thumb Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -516,7 +601,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Thumb_01_03SHJnt
+    - boneName: Guard_RIG_r_Thumb_01_03SHJnt
       humanName: Right Thumb Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -524,7 +609,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Finger_01_01SHJnt
+    - boneName: Guard_RIG_r_Finger_01_01SHJnt
       humanName: Right Index Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -532,7 +617,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Finger_01_02SHJnt
+    - boneName: Guard_RIG_r_Finger_01_02SHJnt
       humanName: Right Index Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -540,7 +625,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Finger_01_03SHJnt
+    - boneName: Guard_RIG_r_Finger_01_03SHJnt
       humanName: Right Index Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -548,7 +633,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Finger_02_01SHJnt
+    - boneName: Guard_RIG_r_Finger_02_01SHJnt
       humanName: Right Middle Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -556,7 +641,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Finger_02_02SHJnt
+    - boneName: Guard_RIG_r_Finger_02_02SHJnt
       humanName: Right Middle Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -564,7 +649,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Finger_02_03SHJnt
+    - boneName: Guard_RIG_r_Finger_02_03SHJnt
       humanName: Right Middle Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -572,7 +657,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Finger_03_01SHJnt
+    - boneName: Guard_RIG_r_Finger_03_01SHJnt
       humanName: Right Ring Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -580,7 +665,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Finger_03_02SHJnt
+    - boneName: Guard_RIG_r_Finger_03_02SHJnt
       humanName: Right Ring Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -588,7 +673,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Finger_03_03SHJnt
+    - boneName: Guard_RIG_r_Finger_03_03SHJnt
       humanName: Right Ring Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -596,7 +681,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Finger_04_01SHJnt
+    - boneName: Guard_RIG_r_Finger_04_01SHJnt
       humanName: Right Little Proximal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -604,7 +689,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Finger_04_02SHJnt
+    - boneName: Guard_RIG_r_Finger_04_02SHJnt
       humanName: Right Little Intermediate
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -612,7 +697,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_r_Finger_04_03SHJnt
+    - boneName: Guard_RIG_r_Finger_04_03SHJnt
       humanName: Right Little Distal
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -620,7 +705,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: AnimaticMale_Spine_03SHJnt
+    - boneName: Guard_RIG_Spine_03SHJnt
       humanName: UpperChest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -634,355 +719,465 @@ ModelImporter:
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_Mesh
+    - name: Guard
       parentName: NPC_Guard(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_SHJntGrp
+    - name: Belt_01
+      parentName: Guard
+      position: {x: 0.022572378, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Belt_02
+      parentName: Guard
+      position: {x: 0.022572378, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Beltloop_01
+      parentName: Guard
+      position: {x: 0.022572378, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Beltloop_02
+      parentName: Guard
+      position: {x: 0.022572378, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boots_01
+      parentName: Guard
+      position: {x: -1.6619086e-17, y: 0, z: 5.3290704e-17}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Boots_02
+      parentName: Guard
+      position: {x: -1.6619086e-17, y: 0, z: 5.3290704e-17}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Glove_01
+      parentName: Guard
+      position: {x: 0.022572378, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Glove_02
+      parentName: Guard
+      position: {x: -1.2191393, y: 0, z: 0.019179182}
+      rotation: {x: 1, y: 3.7493994e-33, z: -6.123234e-17, w: 6.123234e-17}
+      scale: {x: -1, y: -1, z: -1}
+    - name: Helmet
+      parentName: Guard
+      position: {x: 0.022572378, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jacket
+      parentName: Guard
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mask
+      parentName: Guard
+      position: {x: 0.022572378, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Guard
+      position: {x: 0.022572378, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pants
+      parentName: Guard
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sash_01
+      parentName: Guard
+      position: {x: 0.0065585375, y: 0, z: 0.4713898}
+      rotation: {x: 1, y: 3.7493994e-33, z: -6.123234e-17, w: 6.123234e-17}
+      scale: {x: -1, y: -1, z: -1}
+    - name: Sash_02
+      parentName: Guard
+      position: {x: 0.022572378, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword
+      parentName: Guard
+      position: {x: 0.022572378, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Swordholder
+      parentName: Guard
+      position: {x: 0.022572378, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_SHJntGrp
       parentName: NPC_Guard(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_ROOTSHJnt
-      parentName: AnimaticMale_SHJntGrp
-      position: {x: -1.9984013e-20, y: 0.008598008, z: 0.00016898003}
+    - name: Guard_RIG_ROOTSHJnt
+      parentName: Guard_RIG_SHJntGrp
+      position: {x: 3.1554436e-32, y: 0.9753753, z: 0.05567177}
       rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_Spine_01SHJnt
-      parentName: AnimaticMale_ROOTSHJnt
-      position: {x: -0.0008365174, y: -0.00020061566, z: -0.0000011961366}
-      rotation: {x: 0.019082429, y: -0.000077243945, z: 0.030990774, w: 0.99933755}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_Spine_02SHJnt
-      parentName: AnimaticMale_Spine_01SHJnt
-      position: {x: -0.0008395927, y: 0.000096154814, z: -0.0000016814065}
-      rotation: {x: -0.000031253272, y: -0.0037437724, z: -0.06450613, w: 0.9979103}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_Spine_03SHJnt
-      parentName: AnimaticMale_Spine_02SHJnt
-      position: {x: -0.0008406683, y: 0.00011759975, z: -0.00000094360433}
-      rotation: {x: -0.00015043294, y: -0.0011836856, z: 0.000101271304, w: 0.9999993}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_Spine_04SHJnt
-      parentName: AnimaticMale_Spine_03SHJnt
-      position: {x: -0.00084869587, y: 0.00007660532, z: 0.000003039945}
-      rotation: {x: 0.00024120562, y: 0.0016297059, z: 0.06279538, w: 0.9980251}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_Spine_TopSHJnt
-      parentName: AnimaticMale_Spine_04SHJnt
-      position: {x: -0.00083825307, y: 0.00005964189, z: 0.000003646281}
-      rotation: {x: -0.018963587, y: 0.003329713, z: -0.029315706, w: 0.99938476}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_Neck_01SHJnt
-      parentName: AnimaticMale_Spine_TopSHJnt
-      position: {x: -0.0005641353, y: 0.000061493214, z: 0.000002562022}
-      rotation: {x: -0.023120496, y: -0.055818014, z: 0.084693074, w: 0.9945737}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_Neck_02SHJnt
-      parentName: AnimaticMale_Neck_01SHJnt
-      position: {x: -0.00028036584, y: -0.0000487813, z: 0.000022365657}
-      rotation: {x: 0.0026272687, y: 0.004135098, z: -0.050053537, w: 0.99873453}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_Neck_TopSHJnt
-      parentName: AnimaticMale_Neck_02SHJnt
-      position: {x: -0.00028235427, y: -0.000034304157, z: 0.000030658557}
-      rotation: {x: 0.087722875, y: 0.050005175, z: -0.03844351, w: 0.994146}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_Head_TopSHJnt
-      parentName: AnimaticMale_Neck_TopSHJnt
-      position: {x: -0.0014225815, y: -0.00019834226, z: 0.000027926475}
-      rotation: {x: 0.5, y: -0.42540428, z: 0.56482846, w: 0.5}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Arm_ClavicleSHJnt
-      parentName: AnimaticMale_Spine_TopSHJnt
-      position: {x: 0.00014419988, y: -0.000286888, z: -0.00034435483}
-      rotation: {x: 0.42947242, y: -0.45438984, z: 0.56417096, w: 0.5392537}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Arm_ShoulderSHJnt
-      parentName: AnimaticMale_l_Arm_ClavicleSHJnt
-      position: {x: -0.0010683149, y: 0.00014419988, z: -0.0006353114}
-      rotation: {x: 0.0102016255, y: -0.10484144, z: 0.0014148791, w: 0.9944356}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Arm_ElbowSHJnt
-      parentName: AnimaticMale_l_Arm_ShoulderSHJnt
-      position: {x: -0.0019932499, y: 2.5579537e-18, z: -2.5979218e-19}
-      rotation: {x: -0.0033940116, y: 0.028974589, z: -0.020073034, w: 0.9993729}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Arm_WristSHJnt
-      parentName: AnimaticMale_l_Arm_ElbowSHJnt
-      position: {x: -0.0026991374, y: 6.394884e-18, z: 3.5171864e-18}
-      rotation: {x: 0.122778445, y: -0.05373872, z: 0.07628659, w: 0.98803747}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_01_01SHJnt
-      parentName: AnimaticMale_l_Arm_WristSHJnt
-      position: {x: -0.00083747855, y: 0.000035337598, z: 0.00030748663}
-      rotation: {x: 0, y: 0.11352218, z: -0, w: 0.99353546}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_01_02SHJnt
-      parentName: AnimaticMale_l_Finger_01_01SHJnt
-      position: {x: -0.0003507108, y: 0.000021171802, z: -0.0000011928233}
-      rotation: {x: 0.039930444, y: -0.001849881, z: -0.03618555, w: 0.99854535}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_01_03SHJnt
-      parentName: AnimaticMale_l_Finger_01_02SHJnt
-      position: {x: -0.00032230152, y: -0.000026360593, z: 9.382781e-10}
-      rotation: {x: 0, y: 0, z: 0.00481755, w: 0.99998844}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_01_04SHJnt
-      parentName: AnimaticMale_l_Finger_01_03SHJnt
-      position: {x: -0.00022072392, y: -1.2789768e-18, z: 0}
+    - name: Guard_RIG_Spine_01SHJnt
+      parentName: Guard_RIG_ROOTSHJnt
+      position: {x: -0.10028741, y: -0.0011913171, z: 2.2532804e-17}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_02_01SHJnt
-      parentName: AnimaticMale_l_Arm_WristSHJnt
-      position: {x: -0.00085923664, y: 0.0000016145116, z: 0.000101640886}
-      rotation: {x: 0, y: 0.024408428, z: -0, w: 0.9997021}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_02_02SHJnt
-      parentName: AnimaticMale_l_Finger_02_01SHJnt
-      position: {x: -0.00040572678, y: 0.00004919184, z: -1.598721e-19}
-      rotation: {x: 0.000000084051806, y: -0.000000046566097, z: -0.024089796, w: 0.9997098}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_02_03SHJnt
-      parentName: AnimaticMale_l_Finger_02_02SHJnt
-      position: {x: -0.000339836, y: -1.0231815e-17, z: 2.3980816e-18}
+    - name: Guard_RIG_Spine_02SHJnt
+      parentName: Guard_RIG_Spine_01SHJnt
+      position: {x: -0.10028741, y: -0.0011913171, z: 2.2532804e-17}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_02_04SHJnt
-      parentName: AnimaticMale_l_Finger_02_03SHJnt
-      position: {x: -0.0002907966, y: 0, z: -1.598721e-19}
+    - name: Guard_RIG_Spine_03SHJnt
+      parentName: Guard_RIG_Spine_02SHJnt
+      position: {x: -0.10028741, y: -0.0011913171, z: 2.2532804e-17}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_03_01SHJnt
-      parentName: AnimaticMale_l_Arm_WristSHJnt
-      position: {x: -0.000845884, y: 0.0000030517535, z: -0.00011721094}
-      rotation: {x: 0, y: -0.026499325, z: -0, w: 0.99964887}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_03_02SHJnt
-      parentName: AnimaticMale_l_Finger_03_01SHJnt
-      position: {x: -0.00038605576, y: 0, z: 0}
-      rotation: {x: -0.0000001423758, y: 0.000000074505735, z: 0.039308798, w: 0.9992271}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_03_03SHJnt
-      parentName: AnimaticMale_l_Finger_03_02SHJnt
-      position: {x: -0.00033687125, y: 0, z: -1.2789768e-18}
+    - name: Guard_RIG_Spine_04SHJnt
+      parentName: Guard_RIG_Spine_03SHJnt
+      position: {x: -0.10028741, y: -0.0011913171, z: 2.2532804e-17}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_03_04SHJnt
-      parentName: AnimaticMale_l_Finger_03_03SHJnt
-      position: {x: -0.0002336906, y: 5.1159074e-18, z: 1.2789768e-18}
+    - name: Guard_RIG_Spine_TopSHJnt
+      parentName: Guard_RIG_Spine_04SHJnt
+      position: {x: -0.10028741, y: -0.0011913171, z: 2.2532804e-17}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_04_01SHJnt
-      parentName: AnimaticMale_l_Arm_WristSHJnt
-      position: {x: -0.0008220078, y: -0.000044445, z: -0.0003319057}
-      rotation: {x: -0.014064017, y: 0.000050939576, z: 0.05118652, w: 0.9985901}
+    - name: Guard_RIG_r_Arm_ClavicleSHJnt
+      parentName: Guard_RIG_Spine_TopSHJnt
+      position: {x: 2.842171e-16, y: -0.04382473, z: 0.034836806}
+      rotation: {x: 0.5588033, y: -0.4337123, z: -0.55843294, w: 0.43334192}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_04_02SHJnt
-      parentName: AnimaticMale_l_Finger_04_01SHJnt
-      position: {x: -0.0002813989, y: 2.5579537e-18, z: 6.394884e-19}
+    - name: Guard_RIG_r_Arm_ShoulderSHJnt
+      parentName: Guard_RIG_r_Arm_ClavicleSHJnt
+      position: {x: -0.08068395, y: 0.12544683, z: -0.00023889865}
+      rotation: {x: -0.42293587, y: -0.50760317, z: 0.6030594, w: 0.44697163}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Arm_ElbowSHJnt
+      parentName: Guard_RIG_r_Arm_ShoulderSHJnt
+      position: {x: 0.31813082, y: 0, z: -1.0125234e-15}
+      rotation: {x: -0.0010444224, y: 0.031165719, z: -0.014361203, w: 0.99941057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Arm_WristSHJnt
+      parentName: Guard_RIG_r_Arm_ElbowSHJnt
+      position: {x: 0.31454885, y: 2.842171e-16, z: -1.3904433e-14}
+      rotation: {x: -0.186611, y: 0.043673165, z: 0.022299131, w: 0.98120934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Finger_01_01SHJnt
+      parentName: Guard_RIG_r_Arm_WristSHJnt
+      position: {x: 0.12969357, y: -0.0076330975, z: -0.03123388}
+      rotation: {x: -1.564818e-33, y: 3.469447e-17, z: 4.510281e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Finger_01_02SHJnt
+      parentName: Guard_RIG_r_Finger_01_01SHJnt
+      position: {x: 0.027435936, y: -0.0017064909, z: -0.0021571086}
+      rotation: {x: -0.0005005746, y: 0.012662982, z: -0.016383242, w: 0.9997855}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Finger_01_03SHJnt
+      parentName: Guard_RIG_r_Finger_01_02SHJnt
+      position: {x: 0.028846286, y: 0.0010111257, z: -0.00009949719}
+      rotation: {x: -0.00040803815, y: 0.009816922, z: -0.018526278, w: 0.9997801}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Finger_01_04SHJnt
+      parentName: Guard_RIG_r_Finger_01_03SHJnt
+      position: {x: 0.03234406, y: 0.0046854336, z: 0.001770292}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_04_03SHJnt
-      parentName: AnimaticMale_l_Finger_04_02SHJnt
-      position: {x: -0.00022982871, y: -0.000013276295, z: 9.592327e-19}
-      rotation: {x: -0.0000000018626436, y: -0.00000038410113, z: 0.066780284, w: 0.9977677}
+    - name: Guard_RIG_r_Finger_02_01SHJnt
+      parentName: Guard_RIG_r_Arm_WristSHJnt
+      position: {x: 0.12769161, y: -0.005085302, z: -0.0055603595}
+      rotation: {x: -1.564818e-33, y: 3.469447e-17, z: 4.510281e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Finger_04_04SHJnt
-      parentName: AnimaticMale_l_Finger_04_03SHJnt
-      position: {x: -0.00021598567, y: -2.5579537e-18, z: -6.394884e-19}
+    - name: Guard_RIG_r_Finger_02_02SHJnt
+      parentName: Guard_RIG_r_Finger_02_01SHJnt
+      position: {x: 0.030019132, y: -0.0017809519, z: 0.0026875264}
+      rotation: {x: 0.00089529145, y: -0.07032655, z: -0.03229268, w: 0.9970008}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Finger_02_03SHJnt
+      parentName: Guard_RIG_r_Finger_02_02SHJnt
+      position: {x: 0.031973496, y: 0.0026099826, z: -0.00084450084}
+      rotation: {x: -2.7755576e-17, y: 3.8163916e-17, z: 1.0592615e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Finger_02_04SHJnt
+      parentName: Guard_RIG_r_Finger_02_03SHJnt
+      position: {x: 0.03509427, y: 0.003381327, z: -0.0019475751}
+      rotation: {x: -2.7755576e-17, y: 3.8163916e-17, z: 1.0592615e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Finger_03_01SHJnt
+      parentName: Guard_RIG_r_Arm_WristSHJnt
+      position: {x: 0.113968395, y: 0.0030829897, z: 0.023870701}
+      rotation: {x: -0.044965718, y: -0.05624101, z: 0.0036212609, w: 0.99739754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Finger_03_02SHJnt
+      parentName: Guard_RIG_r_Finger_03_01SHJnt
+      position: {x: 0.035573117, y: 0.00042184765, z: -0.00047628244}
+      rotation: {x: -0.000054139644, y: -0.015853096, z: -0.018086739, w: 0.99971074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Finger_03_03SHJnt
+      parentName: Guard_RIG_r_Finger_03_02SHJnt
+      position: {x: 0.03125045, y: 0.0034256796, z: -0.0030961628}
+      rotation: {x: -0.0005206177, y: 0.0034146695, z: -0.0014769234, w: 0.9999929}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Finger_03_04SHJnt
+      parentName: Guard_RIG_r_Finger_03_03SHJnt
+      position: {x: 0.031261496, y: 0.0045586964, z: -0.00048031728}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Thumb_01_01SHJnt
-      parentName: AnimaticMale_l_Arm_WristSHJnt
-      position: {x: -0.00020382601, y: -0.0001393486, z: 0.00028276024}
-      rotation: {x: 0.6327528, y: 0.2746286, z: -0.26058158, w: 0.6755001}
+    - name: Guard_RIG_r_Finger_04_01SHJnt
+      parentName: Guard_RIG_r_Arm_WristSHJnt
+      position: {x: 0.09787898, y: 0.020159842, z: 0.039696243}
+      rotation: {x: 0.009541331, y: 0.031245045, z: 0.027450673, w: 0.99908924}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Thumb_01_02SHJnt
-      parentName: AnimaticMale_l_Thumb_01_01SHJnt
-      position: {x: -0.00053921714, y: 0.0000077345685, z: -0.00003621178}
-      rotation: {x: -0.005567279, y: -0.0044952454, z: 0.014162249, w: 0.9998742}
+    - name: Guard_RIG_r_Finger_04_02SHJnt
+      parentName: Guard_RIG_r_Finger_04_01SHJnt
+      position: {x: 0.03340625, y: -0.0030224705, z: 0.0054985303}
+      rotation: {x: 0.0027747825, y: -0.084490545, z: -0.06582462, w: 0.9942438}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Thumb_01_03SHJnt
-      parentName: AnimaticMale_l_Thumb_01_02SHJnt
-      position: {x: -0.0002336906, y: 7.1942447e-19, z: -2.5579537e-18}
-      rotation: {x: 0.00000005541366, y: -0.000000024214373, z: 0.04105372, w: 0.999157}
+    - name: Guard_RIG_r_Finger_04_03SHJnt
+      parentName: Guard_RIG_r_Finger_04_02SHJnt
+      position: {x: 0.025162868, y: 0.0022342969, z: -0.0011680692}
+      rotation: {x: 2.3652237e-17, y: 8.281552e-17, z: 0.0499038, w: 0.998754}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Thumb_01_04SHJnt
-      parentName: AnimaticMale_l_Thumb_01_03SHJnt
-      position: {x: -0.0002336906, y: -1.1191047e-18, z: 1.2789768e-18}
+    - name: Guard_RIG_r_Finger_04_04SHJnt
+      parentName: Guard_RIG_r_Finger_04_03SHJnt
+      position: {x: 0.032298468, y: 0.000046736754, z: 0.00017814054}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Arm_ClavicleSHJnt
-      parentName: AnimaticMale_Spine_TopSHJnt
-      position: {x: 0.00014419988, y: -0.000286888, z: 0.00034435483}
-      rotation: {x: 0.564171, y: -0.5392534, z: 0.42947254, w: 0.45439002}
+    - name: Guard_RIG_r_Thumb_01_01SHJnt
+      parentName: Guard_RIG_r_Arm_WristSHJnt
+      position: {x: 0.041690808, y: 0.008346919, z: -0.034741256}
+      rotation: {x: 0.5731764, y: 0.32154423, z: -0.20887733, w: 0.72418815}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Arm_ShoulderSHJnt
-      parentName: AnimaticMale_r_Arm_ClavicleSHJnt
-      position: {x: 0.0010683149, y: 0.00014419988, z: -0.0006353114}
-      rotation: {x: 0.010201539, y: 0.10484136, z: -0.0014148348, w: 0.99443567}
+    - name: Guard_RIG_r_Thumb_01_02SHJnt
+      parentName: Guard_RIG_r_Thumb_01_01SHJnt
+      position: {x: 0.036720775, y: 0.004120504, z: -0.0012874409}
+      rotation: {x: -0.00012116864, y: -0.0022392245, z: 0.054032687, w: 0.99853665}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Arm_ElbowSHJnt
-      parentName: AnimaticMale_r_Arm_ShoulderSHJnt
-      position: {x: 0.0019932499, y: 1.2789768e-18, z: 9.192646e-19}
-      rotation: {x: -0.003394182, y: -0.028974794, z: 0.02007323, w: 0.9993728}
+    - name: Guard_RIG_r_Thumb_01_03SHJnt
+      parentName: Guard_RIG_r_Thumb_01_02SHJnt
+      position: {x: 0.04351843, y: -0.0011161185, z: -0.00179453}
+      rotation: {x: 0.00024529715, y: 0.014663816, z: -0.0031750386, w: 0.9998874}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Arm_WristSHJnt
-      parentName: AnimaticMale_r_Arm_ElbowSHJnt
-      position: {x: 0.0026991374, y: 8.952838e-18, z: 2.2382095e-18}
-      rotation: {x: 0.12277855, y: 0.053738628, z: -0.07628776, w: 0.98803735}
+    - name: Guard_RIG_r_Thumb_01_04SHJnt
+      parentName: Guard_RIG_r_Thumb_01_03SHJnt
+      position: {x: 0.03530455, y: -0.000070062466, z: 0.002403282}
+      rotation: {x: 2.7755576e-17, y: -2.7755576e-17, z: 2.7755576e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_01_01SHJnt
-      parentName: AnimaticMale_r_Arm_WristSHJnt
-      position: {x: 0.00083747855, y: 0.000035337598, z: 0.00030748663}
-      rotation: {x: 0, y: -0.11352218, z: -0, w: 0.99353546}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_01_02SHJnt
-      parentName: AnimaticMale_r_Finger_01_01SHJnt
-      position: {x: 0.0003507108, y: 0.000021171802, z: -0.0000011928233}
-      rotation: {x: 0.039930433, y: 0.0018499931, z: 0.036188066, w: 0.9985452}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_01_03SHJnt
-      parentName: AnimaticMale_r_Finger_01_02SHJnt
-      position: {x: 0.00032230152, y: -0.000026360593, z: 9.382781e-10}
-      rotation: {x: 0, y: -0, z: -0.00481755, w: 0.99998844}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_01_04SHJnt
-      parentName: AnimaticMale_r_Finger_01_03SHJnt
-      position: {x: 0.00022072392, y: -3.8369306e-18, z: -1.598721e-19}
+    - name: Guard_RIG_Neck_01SHJnt
+      parentName: Guard_RIG_Spine_TopSHJnt
+      position: {x: -0.045018144, y: 0.00023970846, z: 9.94281e-18}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_02_01SHJnt
-      parentName: AnimaticMale_r_Arm_WristSHJnt
-      position: {x: 0.00085923664, y: 0.0000016145116, z: 0.000101640886}
-      rotation: {x: 0, y: -0.024408428, z: -0, w: 0.9997021}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_02_02SHJnt
-      parentName: AnimaticMale_r_Finger_02_01SHJnt
-      position: {x: 0.00040572678, y: 0.00004919184, z: -6.394884e-19}
-      rotation: {x: 0.00000006699696, y: -0.00000022537988, z: 0.02408818, w: 0.99970984}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_02_03SHJnt
-      parentName: AnimaticMale_r_Finger_02_02SHJnt
-      position: {x: 0.000339836, y: -5.1159074e-18, z: -4.7961633e-19}
+    - name: Guard_RIG_Neck_02SHJnt
+      parentName: Guard_RIG_Neck_01SHJnt
+      position: {x: -0.045018144, y: 0.00023970846, z: 9.94281e-18}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_02_04SHJnt
-      parentName: AnimaticMale_r_Finger_02_03SHJnt
-      position: {x: 0.0002907966, y: 2.5579537e-18, z: -7.993605e-19}
+    - name: Guard_RIG_Neck_TopSHJnt
+      parentName: Guard_RIG_Neck_02SHJnt
+      position: {x: -0.045018144, y: 0.00023970846, z: 9.94281e-18}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_03_01SHJnt
-      parentName: AnimaticMale_r_Arm_WristSHJnt
-      position: {x: 0.000845884, y: 0.0000030517535, z: -0.00011721094}
-      rotation: {x: 0, y: 0.026499325, z: -0, w: 0.99964887}
+    - name: Guard_RIG_Head_JawSHJnt
+      parentName: Guard_RIG_Neck_TopSHJnt
+      position: {x: -0.017481696, y: -0.05795425, z: -9.6428505e-18}
+      rotation: {x: 2.1648903e-17, y: 2.1648903e-17, z: 0.7071068, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_03_02SHJnt
-      parentName: AnimaticMale_r_Finger_03_01SHJnt
-      position: {x: 0.00038605576, y: 2.5579537e-18, z: 0}
-      rotation: {x: 0.000000006286423, y: 0.000000011175863, z: -0.03930991, w: 0.99922705}
+    - name: Guard_RIG_Head_JawEndSHJnt
+      parentName: Guard_RIG_Head_JawSHJnt
+      position: {x: -0.067916796, y: -0.027166719, z: -6.0322233e-18}
+      rotation: {x: -0, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_03_03SHJnt
-      parentName: AnimaticMale_r_Finger_03_02SHJnt
-      position: {x: 0.00033687125, y: 2.5579537e-18, z: -1.2789768e-18}
+    - name: Guard_RIG_Head_TopSHJnt
+      parentName: Guard_RIG_Neck_TopSHJnt
+      position: {x: -0.22175826, y: -0.028174896, z: 5.549631e-17}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_03_04SHJnt
-      parentName: AnimaticMale_r_Finger_03_03SHJnt
-      position: {x: 0.0002336906, y: -3.8369306e-18, z: -1.2789768e-18}
+    - name: Guard_RIG_l_Eye_01SHJnt
+      parentName: Guard_RIG_Head_TopSHJnt
+      position: {x: 0.12953857, y: -0.09261116, z: -0.03507343}
+      rotation: {x: 2.1648903e-17, y: 2.1648903e-17, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_r_Eye_01SHJnt
+      parentName: Guard_RIG_Head_TopSHJnt
+      position: {x: 0.12953857, y: -0.09261116, z: 0.03507343}
+      rotation: {x: 2.1648903e-17, y: 2.1648903e-17, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Arm_ClavicleSHJnt
+      parentName: Guard_RIG_Spine_TopSHJnt
+      position: {x: -0, y: -0.04382473, z: -0.034836806}
+      rotation: {x: 0.5588033, y: -0.4337123, z: 0.55843294, w: -0.43334192}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Arm_ShoulderSHJnt
+      parentName: Guard_RIG_l_Arm_ClavicleSHJnt
+      position: {x: -0.08068395, y: 0.12544683, z: 0.00023889865}
+      rotation: {x: -0.50760317, y: 0.4229359, z: -0.44697163, w: 0.6030594}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Arm_ElbowSHJnt
+      parentName: Guard_RIG_l_Arm_ShoulderSHJnt
+      position: {x: -0.31813082, y: 8.5265126e-16, z: -5.3290704e-17}
+      rotation: {x: -0.0010443627, y: 0.03116567, z: -0.014361231, w: 0.9994105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Arm_WristSHJnt
+      parentName: Guard_RIG_l_Arm_ElbowSHJnt
+      position: {x: -0.31454885, y: -1.4210854e-15, z: -5.7731595e-17}
+      rotation: {x: -0.186611, y: 0.043673165, z: 0.022299113, w: 0.98120934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Thumb_01_01SHJnt
+      parentName: Guard_RIG_l_Arm_WristSHJnt
+      position: {x: -0.041690808, y: -0.008346897, z: 0.034741264}
+      rotation: {x: 0.5731764, y: 0.32154423, z: -0.20887733, w: 0.72418815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Thumb_01_02SHJnt
+      parentName: Guard_RIG_l_Thumb_01_01SHJnt
+      position: {x: -0.036720775, y: -0.004120504, z: 0.0012874409}
+      rotation: {x: -0.00012116864, y: -0.0022392245, z: 0.054032687, w: 0.99853665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Thumb_01_03SHJnt
+      parentName: Guard_RIG_l_Thumb_01_02SHJnt
+      position: {x: -0.04351843, y: 0.0011161185, z: 0.00179453}
+      rotation: {x: 0.0002452959, y: 0.0146637885, z: -0.003174901, w: 0.99988747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Thumb_01_04SHJnt
+      parentName: Guard_RIG_l_Thumb_01_03SHJnt
+      position: {x: -0.03530455, y: 0.000070062466, z: -0.002403282}
+      rotation: {x: 2.7755576e-17, y: -8.326673e-17, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_01_01SHJnt
+      parentName: Guard_RIG_l_Arm_WristSHJnt
+      position: {x: -0.12969357, y: 0.00763312, z: 0.031233886}
+      rotation: {x: -2.7755576e-17, y: -6.938894e-18, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_01_02SHJnt
+      parentName: Guard_RIG_l_Finger_01_01SHJnt
+      position: {x: -0.027435936, y: 0.0017064909, z: 0.0021571086}
+      rotation: {x: -0.00050042564, y: 0.01266343, z: -0.016383478, w: 0.99978554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_01_03SHJnt
+      parentName: Guard_RIG_l_Finger_01_02SHJnt
+      position: {x: -0.028846286, y: -0.0010111257, z: 0.00009949719}
+      rotation: {x: -0.00040808148, y: 0.009817792, z: -0.01852822, w: 0.9997801}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_01_04SHJnt
+      parentName: Guard_RIG_l_Finger_01_03SHJnt
+      position: {x: -0.03234406, y: -0.0046854336, z: -0.001770292}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_04_01SHJnt
-      parentName: AnimaticMale_r_Arm_WristSHJnt
-      position: {x: 0.0008220078, y: -0.000044445, z: -0.0003319057}
-      rotation: {x: -0.014064358, y: -0.000051874642, z: -0.051184423, w: 0.9985902}
+    - name: Guard_RIG_l_Finger_02_01SHJnt
+      parentName: Guard_RIG_l_Arm_WristSHJnt
+      position: {x: -0.12769161, y: 0.005085324, z: 0.005560366}
+      rotation: {x: -2.7755576e-17, y: -6.938894e-18, z: 2.0816682e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_04_02SHJnt
-      parentName: AnimaticMale_r_Finger_04_01SHJnt
-      position: {x: 0.0002813989, y: -2.5579537e-18, z: 3.197442e-19}
+    - name: Guard_RIG_l_Finger_02_02SHJnt
+      parentName: Guard_RIG_l_Finger_02_01SHJnt
+      position: {x: -0.030019132, y: 0.0017809519, z: -0.0026875264}
+      rotation: {x: 0.00089527667, y: -0.0703299, z: -0.03228872, w: 0.9970007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_02_03SHJnt
+      parentName: Guard_RIG_l_Finger_02_02SHJnt
+      position: {x: -0.031973496, y: -0.0026099826, z: 0.00084450084}
+      rotation: {x: 3.9722305e-34, y: -3.8163916e-17, z: 1.0408341e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_02_04SHJnt
+      parentName: Guard_RIG_l_Finger_02_03SHJnt
+      position: {x: -0.03509427, y: -0.003381327, z: 0.0019475751}
+      rotation: {x: 3.9722305e-34, y: -3.8163916e-17, z: 1.0408341e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_03_01SHJnt
+      parentName: Guard_RIG_l_Arm_WristSHJnt
+      position: {x: -0.11396839, y: -0.0030829674, z: -0.023870694}
+      rotation: {x: -0.04496573, y: -0.056241214, z: 0.0036213344, w: 0.9973976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_03_02SHJnt
+      parentName: Guard_RIG_l_Finger_03_01SHJnt
+      position: {x: -0.035573117, y: -0.00042184765, z: 0.00047628244}
+      rotation: {x: -0.000054132186, y: -0.015854726, z: -0.018088143, w: 0.99971074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_03_03SHJnt
+      parentName: Guard_RIG_l_Finger_03_02SHJnt
+      position: {x: -0.03125045, y: -0.0034256796, z: 0.0030961628}
+      rotation: {x: -0.00052028394, y: 0.0034121668, z: -0.0014759026, w: 0.999993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_03_04SHJnt
+      parentName: Guard_RIG_l_Finger_03_03SHJnt
+      position: {x: -0.031261496, y: -0.0045586964, z: 0.00048031728}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_04_03SHJnt
-      parentName: AnimaticMale_r_Finger_04_02SHJnt
-      position: {x: 0.00022982871, y: -0.000013276295, z: 0}
-      rotation: {x: 0.000000010244546, y: -0.0000002714077, z: -0.06678312, w: 0.99776757}
+    - name: Guard_RIG_l_Finger_04_01SHJnt
+      parentName: Guard_RIG_l_Arm_WristSHJnt
+      position: {x: -0.09787898, y: -0.020159822, z: -0.03969624}
+      rotation: {x: 0.009541602, y: 0.031246165, z: 0.027450854, w: 0.9990892}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Finger_04_04SHJnt
-      parentName: AnimaticMale_r_Finger_04_03SHJnt
-      position: {x: 0.00021598567, y: -3.8369306e-18, z: 3.197442e-19}
+    - name: Guard_RIG_l_Finger_04_02SHJnt
+      parentName: Guard_RIG_l_Finger_04_01SHJnt
+      position: {x: -0.03340625, y: 0.0030224705, z: -0.0054985303}
+      rotation: {x: 0.0027750535, y: -0.084487155, z: -0.06582369, w: 0.9942442}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_04_03SHJnt
+      parentName: Guard_RIG_l_Finger_04_02SHJnt
+      position: {x: -0.025162868, y: -0.0022342969, z: 0.0011680692}
+      rotation: {x: 1.1097054e-16, y: 3.8078726e-18, z: 0.0499038, w: 0.998754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_04_04SHJnt
+      parentName: Guard_RIG_l_Finger_04_03SHJnt
+      position: {x: -0.032298468, y: -0.000046736754, z: -0.00017814054}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Thumb_01_01SHJnt
-      parentName: AnimaticMale_r_Arm_WristSHJnt
-      position: {x: 0.00020382601, y: -0.0001393486, z: 0.00028276024}
-      rotation: {x: 0.6327527, y: -0.2746286, z: 0.26058188, w: 0.6755}
+    - name: Guard_RIG_Sword_AuxSHJnt
+      parentName: Guard_RIG_ROOTSHJnt
+      position: {x: -0.10871516, y: -0.020573778, z: -0.2034641}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Thumb_01_02SHJnt
-      parentName: AnimaticMale_r_Thumb_01_01SHJnt
-      position: {x: 0.00053921714, y: 0.0000077345685, z: -0.00003621178}
-      rotation: {x: -0.005567518, y: 0.004497034, z: -0.014164277, w: 0.9998741}
+    - name: Guard_RIG_l_Leg_HipSHJnt
+      parentName: Guard_RIG_ROOTSHJnt
+      position: {x: 0.054333437, y: 0.016365245, z: -0.10153965}
+      rotation: {x: 0.011606772, y: -0.69348735, z: 0.7199885, w: 0.023603825}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Thumb_01_03SHJnt
-      parentName: AnimaticMale_r_Thumb_01_02SHJnt
-      position: {x: 0.0002336906, y: 9.592327e-19, z: 5.1159074e-18}
-      rotation: {x: -0.000000134576, y: 0.00000054249494, z: -0.041049253, w: 0.9991572}
+    - name: Guard_RIG_l_Leg_KneeSHJnt
+      parentName: Guard_RIG_l_Leg_HipSHJnt
+      position: {x: -0.4217156, y: 8.8817837e-17, z: -5.1514347e-16}
+      rotation: {x: -0.00008986773, y: -0.063232206, z: 0.0020828971, w: 0.9979967}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Thumb_01_04SHJnt
-      parentName: AnimaticMale_r_Thumb_01_03SHJnt
-      position: {x: 0.0002336906, y: -1.4388489e-18, z: -6.394884e-18}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+    - name: Guard_RIG_l_Leg_AnkleSHJnt
+      parentName: Guard_RIG_l_Leg_KneeSHJnt
+      position: {x: -0.4024724, y: 3.375078e-16, z: -1.2434498e-16}
+      rotation: {x: -0.043728955, y: 0.019232923, z: 0.025923388, w: 0.99852186}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Leg_HipSHJnt
-      parentName: AnimaticMale_ROOTSHJnt
-      position: {x: 0.0005580068, y: -3.7969624e-19, z: -0.00072975666}
-      rotation: {x: -0.086866215, y: 0.7216939, z: -0.6857286, w: -0.037264}
+    - name: Guard_RIG_l_Leg_BallSHJnt
+      parentName: Guard_RIG_l_Leg_AnkleSHJnt
+      position: {x: -0.0667364, y: -5.3290704e-17, z: 0.13583359}
+      rotation: {x: 0.0006052963, y: 0.73132753, z: 0.0020279696, w: 0.6820232}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Leg_KneeSHJnt
-      parentName: AnimaticMale_l_Leg_HipSHJnt
-      position: {x: -0.0036195791, y: 3.197442e-18, z: -3.2426066e-13}
-      rotation: {x: 0, y: -0.045782097, z: -0, w: 0.9989515}
+    - name: Guard_RIG_l_Leg_ToeSHJnt
+      parentName: Guard_RIG_l_Leg_BallSHJnt
+      position: {x: -0.081500195, y: -0.000000052149, z: -0.0022593949}
+      rotation: {x: -2.5326332e-12, y: 0.000007916503, z: 0.00000031993193, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Leg_AnkleSHJnt
-      parentName: AnimaticMale_l_Leg_KneeSHJnt
-      position: {x: -0.0036195791, y: 3.197442e-18, z: -3.2426029e-13}
-      rotation: {x: -0.09671274, y: 0.06897428, z: 0.09604167, w: 0.9882637}
+    - name: Guard_RIG_r_Leg_HipSHJnt
+      parentName: Guard_RIG_ROOTSHJnt
+      position: {x: 0.054333437, y: 0.016365245, z: 0.10153965}
+      rotation: {x: -0.69348735, y: -0.011606752, z: -0.023603845, w: 0.7199885}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Leg_BallSHJnt
-      parentName: AnimaticMale_l_Leg_AnkleSHJnt
-      position: {x: -0.0007680057, y: 0.000018757552, z: 0.0011295549}
-      rotation: {x: -0.00000001017494, y: 0.7071068, z: 0.00000001017494, w: 0.7071068}
+    - name: Guard_RIG_r_Leg_KneeSHJnt
+      parentName: Guard_RIG_r_Leg_HipSHJnt
+      position: {x: 0.4217156, y: -7.105427e-17, z: 4.52971e-16}
+      rotation: {x: -0.00008982421, y: -0.0632323, z: 0.0020828994, w: 0.9979967}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_l_Leg_ToeSHJnt
-      parentName: AnimaticMale_l_Leg_BallSHJnt
-      position: {x: -0.0005630991, y: -1.7215028e-14, z: 8.50004e-15}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+    - name: Guard_RIG_r_Leg_AnkleSHJnt
+      parentName: Guard_RIG_r_Leg_KneeSHJnt
+      position: {x: 0.4024724, y: -8.8817837e-17, z: 9.325873e-17}
+      rotation: {x: -0.043728955, y: 0.01923295, z: 0.02592339, w: 0.99852186}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Leg_HipSHJnt
-      parentName: AnimaticMale_ROOTSHJnt
-      position: {x: 0.0005580068, y: 1.1990408e-19, z: 0.00072975666}
-      rotation: {x: -0.037264, y: -0.6857286, z: 0.7216939, w: -0.086866215}
+    - name: Guard_RIG_r_Leg_BallSHJnt
+      parentName: Guard_RIG_r_Leg_AnkleSHJnt
+      position: {x: 0.0667364, y: 1.7763568e-17, z: -0.13583359}
+      rotation: {x: 0.00060523854, y: 0.73132765, z: 0.0020279211, w: 0.68202317}
       scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Leg_KneeSHJnt
-      parentName: AnimaticMale_r_Leg_HipSHJnt
-      position: {x: -0.0036195791, y: 2.8776979e-18, z: -6.4852214e-13}
-      rotation: {x: 0, y: -0.045782097, z: -0, w: 0.9989515}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Leg_AnkleSHJnt
-      parentName: AnimaticMale_r_Leg_KneeSHJnt
-      position: {x: -0.0036195791, y: 4.156675e-18, z: -9.053158e-15}
-      rotation: {x: 0.09671274, y: 0.06897428, z: -0.09604167, w: 0.9882637}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Leg_BallSHJnt
-      parentName: AnimaticMale_r_Leg_AnkleSHJnt
-      position: {x: -0.0007680057, y: -0.000018757552, z: 0.0011295549}
-      rotation: {x: 0.000000010108961, y: 0.7071068, z: -0.000000010108961, w: 0.7071068}
-      scale: {x: 1, y: 1, z: 1}
-    - name: AnimaticMale_r_Leg_ToeSHJnt
-      parentName: AnimaticMale_r_Leg_BallSHJnt
-      position: {x: -0.0005630991, y: 5.828681e-14, z: 1.7869237e-13}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+    - name: Guard_RIG_r_Leg_ToeSHJnt
+      parentName: Guard_RIG_r_Leg_BallSHJnt
+      position: {x: 0.081500195, y: 0.00000005218224, z: 0.002259394}
+      rotation: {x: -2.5358689e-12, y: 0.000007921547, z: 0.00000032013583, w: 1}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
