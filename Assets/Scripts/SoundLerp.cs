@@ -5,30 +5,38 @@ using UnityEngine.Events;
 
 public class SoundLerp : MonoBehaviour
 {
-    public Vector3 StartPos;
-    public Vector3 EndPos;
+    public Vector3 StartSize;
+    public Vector3 EndSize;
     public GameObject Throwable;
-    public  GameEvent TriggerLerp;
+    public GameEvent TriggerLerp;
 
     public bool isLerping;
-	// Use this for initialization
-    private void RaiseEvent()
+    // Use this for initialization
+    //private void RaiseEvent()
+    //{
+    //    TriggerLerp.Raise();
+    //    Throwable.transform.localScale = Vector3.Lerp(StartSize, EndSize,.9f);
+    //    var currentSize = StartSize - EndSize;
+    //}
+
+    struct  Lerp
     {
-        do
+        private int start;
+        private int end;
+        private int interlopepercent;
+
+        void doLerp()
         {
-            Throwable.transform.localScale.Scale(Vector3.Lerp(StartPos, EndPos, 5));
-        } while (isLerping==true);
-
+            var pos = end - start * interlopepercent;
+        }
     }
-    
-
     // Use this for initialization
     void Start()
     {
 
     }
-	// Update is called once per frame
-	void Update ()
+    // Update is called once per frame
+    void Update()
     {
 
     }
