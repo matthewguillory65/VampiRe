@@ -150,36 +150,36 @@ InputManager:
     axis: 2
     joyNum: 0
   - serializedVersion: 3
-    m_Name: Horizontal
-    descriptiveName: 
+    m_Name: PrimaryControllerHandTrigger
+    descriptiveName: Left Controller Grip
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: 
     altNegativeButton: 
     altPositiveButton: 
-    gravity: 0
-    dead: 0.19
+    gravity: 3
+    dead: 0.001
     sensitivity: 1
-    snap: 0
+    snap: 1
     invert: 0
     type: 2
-    axis: 0
+    axis: 10
     joyNum: 0
   - serializedVersion: 3
-    m_Name: Vertical
-    descriptiveName: 
+    m_Name: SecondaryControllerHandTrigger
+    descriptiveName: Right Hand Grip
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: 
     altNegativeButton: 
     altPositiveButton: 
-    gravity: 0
-    dead: 0.19
+    gravity: 3
+    dead: 0.001
     sensitivity: 1
-    snap: 0
-    invert: 1
+    snap: 1
+    invert: 0
     type: 2
-    axis: 1
+    axis: 11
     joyNum: 0
   - serializedVersion: 3
     m_Name: Fire1
