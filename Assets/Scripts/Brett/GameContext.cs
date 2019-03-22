@@ -25,14 +25,4 @@ namespace Assets.Scripts.Brett
             CurrentState.Update(this);
         }
     }
-
-    public enum MyEnum
-    {
-        Running,
-        Pause,
-        Intro,
-        Win,
-        Loses
-    }
-
 }

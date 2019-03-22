@@ -295,7 +295,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 36a62b0c0b4166640b240d171c14d9e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -453,6 +453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Context: {fileID: 11400000, guid: 073abdba56db52b4d82d47e655c5bcdd, type: 2}
+  GAMESTATEREF: {fileID: 11400000, guid: cae31c284b9239249bd61db974d42644, type: 2}
 --- !u!4 &1163354391
 Transform:
   m_ObjectHideFlags: 0
@@ -477,11 +478,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c122c90e152c00d49a95cac2f1275449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: {fileID: 0}
+  Event: {fileID: 11400000, guid: 2fe89b8537c6f3f4789525e32f2a30ad, type: 2}
   Notes: 
   Response:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 073abdba56db52b4d82d47e655c5bcdd, type: 2}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &1214013673

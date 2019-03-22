@@ -2,11 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Assets.Scripts.Brett;
 using UnityEditor;
 using UnityEditor.VersionControl;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class GameStateEditor : EditorWindow
 {
@@ -19,7 +20,7 @@ public class GameStateEditor : EditorWindow
 
     private void OnEnable()
     {
-        m_result = new List<System.Type>();
+        gameStates = new List<System.Type>();
         var assemblies = System.AppDomain.CurrentDomain.GetAssemblies();
         foreach (var assembly in assemblies)
         {
@@ -28,30 +29,40 @@ public class GameStateEditor : EditorWindow
             {
                 if (type.IsSubclassOf(typeof(State)))
                 {
-                    m_result.Add(type);
+                    gameStates.Add(type);
                 }
             }
         }
 
+        var assets = AssetDatabase.FindAssets("t:GameEvent").Select(guid => AssetDatabase.GUIDToAssetPath(guid))
+            .Select(path => AssetDatabase.LoadAssetAtPath<GameEvent>(path)).Where(gameevent => gameevent).ToList();
     }
 
     private void OnGUI()
     {
         GUILayout.BeginHorizontal(EditorStyles.helpBox);
-
         GUILayout.BeginVertical(EditorStyles.helpBox);
         EditorGUILayout.LabelField("Game States:", EditorStyles.boldLabel);
         scroll = EditorGUILayout.BeginScrollView(scroll);
-        for (int i = 0; i < m_result.Count; i++)
+        for (int i = 0; i < gameStates.Count; i++)
         {
-            EditorGUILayout.LabelField(m_result[i].Name);
+            EditorGUILayout.LabelField(gameStates[i].Name);
         }
+
+
         GUILayout.EndVertical();
         EditorGUILayout.EndScrollView();
         GUILayout.BeginVertical();
         scroll2 = EditorGUILayout.BeginScrollView(scroll2);
-        EditorGUILayout.LabelField("Game State Name:", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Game State Name", EditorStyles.boldLabel);
         gameStateName = GUILayout.TextField(gameStateName);
+
+        EditorGUILayout.Space();
+        EditorGUILayout.LabelField("Transition Conditions", EditorStyles.boldLabel);
+
+        
+
+
         if (GUILayout.Button("Create a New GameState") && gameStateName != "")
         {
             string path = "Assets/Scripts/Brett/" + gameStateName + ".cs";
@@ -85,10 +96,12 @@ public class GameStateEditor : EditorWindow
         }
     }
 
-    private List<System.Type> m_result = new List<System.Type>();
+    private List<System.Type> gameStates = new List<System.Type>();
+    private List<string> gameEvents = new List<string>();
 
     private Vector2 scroll;
     private Vector2 scroll2;
+
 
     private string gameStateName;
 
