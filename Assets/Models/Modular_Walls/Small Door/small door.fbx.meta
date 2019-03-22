@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: f903f75719321994f8bb78ca4cd9b74f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body10
+    100002: Body3
+    100004: Body8
+    100006: Body9
+    100008: Box008
+    100010: group10
+    100012: group15
+    100014: Object004
+    100016: Object005
+    100018: Object006
+    100020: //RootNode
+    100022: Small_Door_Vampire:Body1
+    100024: Small_Door_Vampire:Body16
+    100026: Small_Door_Vampire:Body17
+    100028: Small_Door_Vampire:Body4
+    100030: Small_Door_Vampire:Body7
+    100032: Small_Door_Vampire:Body9
+    400000: Body10
+    400002: Body3
+    400004: Body8
+    400006: Body9
+    400008: Box008
+    400010: group10
+    400012: group15
+    400014: Object004
+    400016: Object005
+    400018: Object006
+    400020: //RootNode
+    400022: Small_Door_Vampire:Body1
+    400024: Small_Door_Vampire:Body16
+    400026: Small_Door_Vampire:Body17
+    400028: Small_Door_Vampire:Body4
+    400030: Small_Door_Vampire:Body7
+    400032: Small_Door_Vampire:Body9
+    2100000: lambert1
+    2300000: Body10
+    2300002: Body3
+    2300004: Body8
+    2300006: Body9
+    2300008: Box008
+    2300010: Object004
+    2300012: Object005
+    2300014: Object006
+    2300016: Small_Door_Vampire:Body1
+    2300018: Small_Door_Vampire:Body16
+    2300020: Small_Door_Vampire:Body17
+    2300022: Small_Door_Vampire:Body4
+    2300024: Small_Door_Vampire:Body7
+    2300026: Small_Door_Vampire:Body9
+    3300000: Body10
+    3300002: Body3
+    3300004: Body8
+    3300006: Body9
+    3300008: Box008
+    3300010: Object004
+    3300012: Object005
+    3300014: Object006
+    3300016: Small_Door_Vampire:Body1
+    3300018: Small_Door_Vampire:Body16
+    3300020: Small_Door_Vampire:Body17
+    3300022: Small_Door_Vampire:Body4
+    3300024: Small_Door_Vampire:Body7
+    3300026: Small_Door_Vampire:Body9
+    4300000: Small_Door_Vampire:Body17
+    4300002: Small_Door_Vampire:Body16
+    4300004: Small_Door_Vampire:Body7
+    4300006: Small_Door_Vampire:Body4
+    4300008: Body3
+    4300010: Body8
+    4300012: Body9
+    4300014: Body10
+    4300016: Small_Door_Vampire:Body1
+    4300018: Small_Door_Vampire:Body9
+    4300020: Object006
+    4300022: Box008
+    4300024: Object005
+    4300026: Object004
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

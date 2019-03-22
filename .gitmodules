@@ -1,0 +1,3 @@
+[submodule "Assets/ChuTools"]
+	path = Assets/ChuTools
+	url = https://github.com/chuwilliamson/ChuTools.git
