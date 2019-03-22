@@ -1,27 +1,23 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Assets.Scripts.Brett;
+﻿using System;
 using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
-
-    public class GameWonState : State
+    [Serializable]
+    public class GamePauseState : State
     {
-
         public override void OnEnter()
         {
-            Debug.Log("GameWonState");
+            Debug.Log("GamePauseState");
         }
 
         public override void OnExit()
         {
-
         }
 
         public override void Update(Context c)
         {
-            //Can Transition into ExitState or IntroStartState
+            //Can transition into GameRunningState, IntroStartState, or ExitState
         }
     }
 }

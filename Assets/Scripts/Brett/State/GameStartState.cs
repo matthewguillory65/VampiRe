@@ -1,12 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq.Expressions;
-using UnityEditorInternal;
+﻿using System;
 using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
-
+    [Serializable]
     public class GameStartState : State
     {
         public override void OnEnter()
@@ -16,7 +13,6 @@ namespace Assets.Scripts.Brett
 
         public override void OnExit()
         {
-
         }
 
         public override void Update(Context c)
