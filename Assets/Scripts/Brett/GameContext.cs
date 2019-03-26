@@ -9,6 +9,7 @@ namespace Assets.Scripts.Brett
     public class GameContext :  Context
     {
         public string StateName;
+        public ConditionScriptable conditions;
  
         public override State CurrentState { get; set; }
 
@@ -22,7 +23,7 @@ namespace Assets.Scripts.Brett
         public override void Update()
         {
             StateName = CurrentState.ToString();
-            CurrentState.Update(this);
+            CurrentState.Update(this, conditions);
         }
     }
 }

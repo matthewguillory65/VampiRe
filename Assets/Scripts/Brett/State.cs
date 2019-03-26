@@ -10,6 +10,6 @@ namespace Assets.Scripts.Brett
 
         public abstract void OnExit();
 
-        public abstract void Update(Context c);
+        public abstract void Update(Context c, ConditionScriptable conditionScriptable);
     }
 }

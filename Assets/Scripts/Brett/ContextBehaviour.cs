@@ -16,11 +16,12 @@ namespace Assets.Scripts.Brett
 
         public ConditionScriptable Conditions;
 
-        
+         
 
         void Start()
         {
             Context.CurrentState = GAMESTATEREF.TheState;
+            
 
         }
 

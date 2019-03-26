@@ -19,7 +19,7 @@ namespace Assets.Scripts.Brett
 
         }
 
-        public override void Update(Context c)
+        public override void Update(Context c, ConditionScriptable conditionScriptable)
         {
             //Transitions into GameRunningState
         }

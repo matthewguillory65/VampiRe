@@ -20,7 +20,7 @@ namespace Assets.Scripts.Brett
 
         }
 
-        public override void Update(Context c)
+        public override void Update(Context c, ConditionScriptable conditionScriptable)
         {
             //Can transition to IntroPauseState, IntroRunningState, or GameStart state
         }
