@@ -82,7 +82,7 @@ namespace ProBuilder2.EditorCommon
 		GUIContent gc_Learn = new GUIContent("Learn ProBuilder", "Documentation");
 		GUIContent gc_Forum = new GUIContent("Support Forum", "ProCore Support Forum");
 		GUIContent gc_Contact = new GUIContent("Contact Us", "Send us an email!");
-		GUIContent gc_Banner = new GUIContent("", "ProBuilder Quick-Start Video Tutorials");
+		GUIContent gc_Banner = new GUIContent("", "ProBuilder Quick-Beginning Video Tutorials");
 
 		private const string VIDEO_URL = @"http://bit.ly/pbstarter";
 		private const string LEARN_URL = @"http://procore3d.com/docs/probuilder";

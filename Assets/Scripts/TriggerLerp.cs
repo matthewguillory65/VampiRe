@@ -5,7 +5,6 @@ using UnityEngine;
 public class TriggerLerp : MonoBehaviour
 {
     private GameObject Throwable;
-    public SoundLerp SoundToLerp;
     //void OnCollisionEnter(Collision other)
     //{
     //    if (other.gameObject.CompareTag("Plane"))
@@ -25,10 +24,7 @@ public class TriggerLerp : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ground"))
         {
-            SoundToLerp.TriggerLerp.Raise();
-            //other.transform.localScale += Vector3.Lerp(SoundToLerp.StartSize, SoundToLerp.EndSize, 5);
-            gameObject.GetComponent<Collider>().transform.localScale = Vector3.Lerp(SoundToLerp.StartSize, SoundToLerp.EndSize, Time.deltaTime);
-            print("Should Start Lerping");
+            print("Should Beginning Lerping");
             print("Should Alert nearby guard");
             
         }

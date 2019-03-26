@@ -1,39 +1,55 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Assets.Scripts.Brett;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 public class SoundLerp : MonoBehaviour
 {
-    public Vector3 StartSize;
-    public Vector3 EndSize;
-    public GameObject Throwable;
-    public GameEvent TriggerLerp;
+    [Range(0,5)]
+    public float SliderValue;
+    public float Result;
+    public GameObject sphereObject;
+    public SphereCollider sphereCollider;
+    public LerpOBJ lerpOBJ;
+    public TimeOBJ timer = new TimeOBJ{ Max = 5 };
 
-    public bool isLerping;
-    // Use this for initialization
-    //private void RaiseEvent()
-    //{
-    //    TriggerLerp.Raise();
-    //    Throwable.transform.localScale = Vector3.Lerp(StartSize, EndSize,.9f);
-    //    var currentSize = StartSize - EndSize;
-    //}
 
-    struct  Lerp
+   
+    public struct TimeOBJ
     {
-        private int start;
-        private int end;
-        private int interlopepercent;
+        private float val;
 
-        void doLerp()
+        public float value
         {
-            var pos = end - start * interlopepercent;
+
+            get { return val > Max ? 0 : value; }
+            set { this.val = value; }
+
+        }
+        public float Max { get; set; }
+
+    }
+
+    public struct LerpOBJ
+    {
+        public float Beginning;
+        public float Ending;
+        public float Interprolent;
+
+        public float Answer
+        {
+            get { return (Ending - Beginning) * Interprolent; }
         }
     }
+
     // Use this for initialization
-    void Start()
+        void Start()
     {
+        sphereObject= GameObject.CreatePrimitive(PrimitiveType.Sphere);
+        sphereCollider = sphereObject.AddComponent<SphereCollider>();
+        sphereCollider.radius = Result;
+
 
     }
     // Update is called once per frame
@@ -41,4 +57,5 @@ public class SoundLerp : MonoBehaviour
     {
 
     }
-}
+
+    }

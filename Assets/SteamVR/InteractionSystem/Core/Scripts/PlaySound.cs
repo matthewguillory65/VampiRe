@@ -23,7 +23,7 @@ namespace Valve.VR.InteractionSystem
 		public bool looping;
 		[Tooltip( "If the sound is looping and updating it's position every frame, stop the sound at the end of the wav/clip length. " )]
 		public bool stopOnEnd;
-		[Tooltip( "Start a wave file playing on awake, but after a delay." )]
+		[Tooltip( "Beginning a wave file playing on awake, but after a delay." )]
 		public bool playOnAwakeWithDelay;
 
 		[Header ( "Random Volume" )]

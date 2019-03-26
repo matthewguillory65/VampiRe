@@ -17,7 +17,7 @@ public class OnTriggerEventSystem : MonoBehaviour
         if (other.CompareTag(playerTag)==true)
         {
             playerTriggerEnter.Raise();
-            Debug.Log("Trigger Start.");
+            Debug.Log("Trigger Beginning.");
         }
     }
     private void OnTriggerExit(Collider other)

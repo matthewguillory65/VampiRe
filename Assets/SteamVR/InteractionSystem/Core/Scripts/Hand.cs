@@ -710,7 +710,7 @@ namespace Valve.VR.InteractionSystem
             playerInstance = Player.instance;
             if (!playerInstance)
             {
-                Debug.LogError("No player instance found in Hand Start()");
+                Debug.LogError("No player instance found in Hand Beginning()");
             }
 
             // allocate array for colliders

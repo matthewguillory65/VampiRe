@@ -6,7 +6,7 @@ using System.Collections;
 namespace Valve.VR
 {
     /// <summary>
-    /// Automatically activates an action set on Start() and deactivates the set on OnDestroy(). Optionally deactivating all other sets as well.
+    /// Automatically activates an action set on Beginning() and deactivates the set on OnDestroy(). Optionally deactivating all other sets as well.
     /// </summary>
     public class SteamVR_ActivateActionSetOnLoad : MonoBehaviour
     {

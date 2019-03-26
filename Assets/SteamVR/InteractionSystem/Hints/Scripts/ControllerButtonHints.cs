@@ -338,8 +338,8 @@ namespace Valve.VR.InteractionSystem
 			hintInfo.textHintObject.tag = gameObject.tag;
 
 			//Get all the relevant child objects
-			hintInfo.textStartAnchor = hintInfo.textHintObject.transform.Find( "Start" );
-			hintInfo.textEndAnchor = hintInfo.textHintObject.transform.Find( "End" );
+			hintInfo.textStartAnchor = hintInfo.textHintObject.transform.Find( "Beginning" );
+			hintInfo.textEndAnchor = hintInfo.textHintObject.transform.Find( "Ending" );
 			hintInfo.canvasOffset = hintInfo.textHintObject.transform.Find( "CanvasOffset" );
 			hintInfo.line = hintInfo.textHintObject.transform.Find( "Line" ).GetComponent<LineRenderer>();
 			hintInfo.textCanvas = hintInfo.textHintObject.GetComponentInChildren<Canvas>();
