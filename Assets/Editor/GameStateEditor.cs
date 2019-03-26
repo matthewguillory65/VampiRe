@@ -36,6 +36,10 @@ public class GameStateEditor : EditorWindow
 
         var assets = AssetDatabase.FindAssets("t:GameEvent").Select(guid => AssetDatabase.GUIDToAssetPath(guid))
             .Select(path => AssetDatabase.LoadAssetAtPath<GameEvent>(path)).Where(gameevent => gameevent).ToList();
+        foreach (var a in assets)
+        {
+            gameEvents.Add(a.name);
+        }
     }
 
     private void OnGUI()
@@ -52,6 +56,7 @@ public class GameStateEditor : EditorWindow
 
         GUILayout.EndVertical();
         EditorGUILayout.EndScrollView();
+
         GUILayout.BeginVertical();
         scroll2 = EditorGUILayout.BeginScrollView(scroll2);
         EditorGUILayout.LabelField("Game State Name", EditorStyles.boldLabel);
@@ -59,8 +64,8 @@ public class GameStateEditor : EditorWindow
 
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("Transition Conditions", EditorStyles.boldLabel);
-
         
+        //EditorGUILayout.Popup(0, (Array)gameEvents)
 
 
         if (GUILayout.Button("Create a New GameState") && gameStateName != "")
