@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 385af5bc84b99b44a8329f172f479f02
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Hand_Held_Lantern:Body10
+    100002: Hand_Held_Lantern:Body13
+    100004: Hand_Held_Lantern:Body19
+    100006: Hand_Held_Lantern:Body21
+    100008: Hand_Held_Lantern:Body22
+    100010: Hand_Held_Lantern:Body23
+    100012: Hand_Held_Lantern:Body24
+    100014: Hand_Held_Lantern:Body25
+    100016: Hand_Held_Lantern:Body26
+    100018: Hand_Held_Lantern:Body27
+    100020: Hand_Held_Lantern:Body3
+    100022: Hand_Held_Lantern:Body4
+    100024: Hand_Held_Lantern:transform1
+    100026: Hand_Held_Lantern:transform10
+    100028: Hand_Held_Lantern:transform11
+    100030: Hand_Held_Lantern:transform2
+    100032: Hand_Held_Lantern:transform3
+    100034: Hand_Held_Lantern:transform4
+    100036: Hand_Held_Lantern:transform5
+    100038: Hand_Held_Lantern:transform6
+    100040: Hand_Held_Lantern:transform7
+    100042: Hand_Held_Lantern:transform8
+    100044: Hand_Held_Lantern:transform9
+    100046: Lamp_Handle
+    100048: Lamp_Handle_Controller
+    100050: Lamp_Handle_Controller1
+    100052: Lamp_Handle_Hand_Joint
+    100054: Lamp_Handle_Hand_Joint1
+    100056: Lamp_Handle_Joint
+    100058: Lamp_Root
+    100060: Lamp_Root_Controller
+    100062: //RootNode
+    100064: polySurface1
+    100066: polySurface10
+    100068: polySurface11
+    100070: polySurface2
+    100072: polySurface3
+    100074: polySurface4
+    100076: polySurface5
+    100078: polySurface6
+    100080: polySurface7
+    100082: polySurface8
+    100084: polySurface9
+    100086: Root_Controller
+    100088: transform1
+    100090: transform2
+    100092: transform3
+    100094: transform4
+    400000: Hand_Held_Lantern:Body10
+    400002: Hand_Held_Lantern:Body13
+    400004: Hand_Held_Lantern:Body19
+    400006: Hand_Held_Lantern:Body21
+    400008: Hand_Held_Lantern:Body22
+    400010: Hand_Held_Lantern:Body23
+    400012: Hand_Held_Lantern:Body24
+    400014: Hand_Held_Lantern:Body25
+    400016: Hand_Held_Lantern:Body26
+    400018: Hand_Held_Lantern:Body27
+    400020: Hand_Held_Lantern:Body3
+    400022: Hand_Held_Lantern:Body4
+    400024: Hand_Held_Lantern:transform1
+    400026: Hand_Held_Lantern:transform10
+    400028: Hand_Held_Lantern:transform11
+    400030: Hand_Held_Lantern:transform2
+    400032: Hand_Held_Lantern:transform3
+    400034: Hand_Held_Lantern:transform4
+    400036: Hand_Held_Lantern:transform5
+    400038: Hand_Held_Lantern:transform6
+    400040: Hand_Held_Lantern:transform7
+    400042: Hand_Held_Lantern:transform8
+    400044: Hand_Held_Lantern:transform9
+    400046: Lamp_Handle
+    400048: Lamp_Handle_Controller
+    400050: Lamp_Handle_Controller1
+    400052: Lamp_Handle_Hand_Joint
+    400054: Lamp_Handle_Hand_Joint1
+    400056: Lamp_Handle_Joint
+    400058: Lamp_Root
+    400060: Lamp_Root_Controller
+    400062: //RootNode
+    400064: polySurface1
+    400066: polySurface10
+    400068: polySurface11
+    400070: polySurface2
+    400072: polySurface3
+    400074: polySurface4
+    400076: polySurface5
+    400078: polySurface6
+    400080: polySurface7
+    400082: polySurface8
+    400084: polySurface9
+    400086: Root_Controller
+    400088: transform1
+    400090: transform2
+    400092: transform3
+    400094: transform4
+    2100000: lambert2
+    4300000: polySurface1
+    4300002: polySurface2
+    4300004: polySurface3
+    4300006: polySurface4
+    4300008: polySurface5
+    4300010: polySurface6
+    4300012: polySurface7
+    4300014: polySurface8
+    4300016: polySurface9
+    4300018: polySurface10
+    4300020: polySurface11
+    9500000: //RootNode
+    13700000: polySurface1
+    13700002: polySurface10
+    13700004: polySurface11
+    13700006: polySurface2
+    13700008: polySurface3
+    13700010: polySurface4
+    13700012: polySurface5
+    13700014: polySurface6
+    13700016: polySurface7
+    13700018: polySurface8
+    13700020: polySurface9
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
