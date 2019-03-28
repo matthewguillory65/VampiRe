@@ -176,7 +176,7 @@ namespace Valve.VR.InteractionSystem.Sample
         private void FixedUpdate()
         {
             groundedTime += Time.fixedDeltaTime;
-            if (!isGrounded) groundedTime = 0; // reset timer
+            if (!isGrounded) groundedTime = 0; // reset time
 
             if (isGrounded & !held)
             {

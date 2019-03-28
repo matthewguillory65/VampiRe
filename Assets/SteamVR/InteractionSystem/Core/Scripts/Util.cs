@@ -721,7 +721,7 @@ namespace Valve.VR.InteractionSystem
 		{
 			if ( timerActive )
 			{
-				//If the component or its GameObject get destroyed before the timer is complete, clean up
+				//If the component or its GameObject get destroyed before the time is complete, clean up
 				StopCoroutine( Wait() );
 				timerActive = false;
 
