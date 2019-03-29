@@ -1,32 +1,23 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq.Expressions;
-using UnityEditorInternal;
 using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
-
-    [System.Serializable]
-
-    public class ExitState : State
+    [Serializable]
+    public class GamePauseState : State
     {
         public override void OnEnter()
         {
-            //Close Application
-
-            Debug.Log("ExitState");
+            Debug.Log("GamePauseState");
         }
 
         public override void OnExit()
         {
-
         }
 
         public override void Update(Context c, ConditionScriptable conditionScriptable)
         {
-
+            //Can transition into GameRunningState, IntroStartState, or ExitState
         }
     }
 }

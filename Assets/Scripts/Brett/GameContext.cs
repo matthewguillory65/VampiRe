@@ -1,12 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Serialization;
+﻿using UnityEngine;
 
 namespace Assets.Scripts.Brett
 {
-    [CreateAssetMenu]
-    public class GameContext :  Context
+    [CreateAssetMenu,System.Serializable]
+    public class GameContext : Context
     {
         public string StateName;
         public ConditionScriptable conditions;

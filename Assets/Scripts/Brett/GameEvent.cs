@@ -31,7 +31,7 @@ namespace Assets.Scripts.Brett
 
 #if UNITY_EDITOR
     [CustomEditor(typeof(GameEvent))]
-    public class GameEventEditor : Editor
+    public class GameEventEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {

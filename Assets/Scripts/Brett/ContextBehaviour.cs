@@ -14,14 +14,11 @@ namespace Assets.Scripts.Brett
         
         public GameStateScriptable GAMESTATEREF;
 
-        public ConditionScriptable Conditions;
 
-         
 
         void Start()
         {
-            Context.CurrentState = GAMESTATEREF.TheState;
-            
+            Context.CurrentState = GAMESTATEREF.StateField;
 
         }
 
