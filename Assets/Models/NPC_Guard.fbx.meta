@@ -190,7 +190,6 @@ ModelImporter:
     400182: Sword
     400184: Swordholder
     2100000: lambert2
-    2100002: Guard_LowPoly_Helmet_initialShadingGroup1
     4300000: Jacket
     4300002: Swordholder
     4300004: Neck
@@ -822,26 +821,146 @@ ModelImporter:
     - name: Guard_RIG_Spine_01SHJnt
       parentName: Guard_RIG_ROOTSHJnt
       position: {x: -0.10028741, y: -0.0011913171, z: 2.2532804e-17}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: -1.110223e-16, y: 1.110223e-16, z: -1.9124107e-32, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_Spine_02SHJnt
       parentName: Guard_RIG_Spine_01SHJnt
       position: {x: -0.10028741, y: -0.0011913171, z: 2.2532804e-17}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: -1.110223e-16, y: 1.110223e-16, z: -1.9124107e-32, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_Spine_03SHJnt
       parentName: Guard_RIG_Spine_02SHJnt
       position: {x: -0.10028741, y: -0.0011913171, z: 2.2532804e-17}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: -1.110223e-16, y: 1.110223e-16, z: -1.9124107e-32, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_Spine_04SHJnt
       parentName: Guard_RIG_Spine_03SHJnt
       position: {x: -0.10028741, y: -0.0011913171, z: 2.2532804e-17}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: -1.110223e-16, y: 1.110223e-16, z: -1.9124107e-32, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_Spine_TopSHJnt
       parentName: Guard_RIG_Spine_04SHJnt
       position: {x: -0.10028741, y: -0.0011913171, z: 2.2532804e-17}
+      rotation: {x: -1.110223e-16, y: 1.110223e-16, z: -1.9124107e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Arm_ClavicleSHJnt
+      parentName: Guard_RIG_Spine_TopSHJnt
+      position: {x: -0, y: -0.04382473, z: -0.034836806}
+      rotation: {x: 0.5588033, y: -0.4337123, z: 0.55843294, w: -0.43334192}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Arm_ShoulderSHJnt
+      parentName: Guard_RIG_l_Arm_ClavicleSHJnt
+      position: {x: -0.08068395, y: 0.12544683, z: 0.00023889865}
+      rotation: {x: -0.50760317, y: 0.4229359, z: -0.44697163, w: 0.6030594}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Arm_ElbowSHJnt
+      parentName: Guard_RIG_l_Arm_ShoulderSHJnt
+      position: {x: -0.31813082, y: 8.5265126e-16, z: -5.3290704e-17}
+      rotation: {x: -0.0010443627, y: 0.03116567, z: -0.014361231, w: 0.9994105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Arm_WristSHJnt
+      parentName: Guard_RIG_l_Arm_ElbowSHJnt
+      position: {x: -0.31454885, y: -1.4210854e-15, z: -5.7731595e-17}
+      rotation: {x: -0.186611, y: 0.043673165, z: 0.022299113, w: 0.98120934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Thumb_01_01SHJnt
+      parentName: Guard_RIG_l_Arm_WristSHJnt
+      position: {x: -0.041690808, y: -0.008346897, z: 0.034741264}
+      rotation: {x: 0.5731764, y: 0.32154423, z: -0.20887733, w: 0.72418815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Thumb_01_02SHJnt
+      parentName: Guard_RIG_l_Thumb_01_01SHJnt
+      position: {x: -0.036720775, y: -0.004120504, z: 0.0012874409}
+      rotation: {x: -0.00012116864, y: -0.0022392245, z: 0.054032687, w: 0.99853665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Thumb_01_03SHJnt
+      parentName: Guard_RIG_l_Thumb_01_02SHJnt
+      position: {x: -0.04351843, y: 0.0011161185, z: 0.00179453}
+      rotation: {x: 0.0002452959, y: 0.0146637885, z: -0.003174901, w: 0.99988747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Thumb_01_04SHJnt
+      parentName: Guard_RIG_l_Thumb_01_03SHJnt
+      position: {x: -0.03530455, y: 0.000070062466, z: -0.002403282}
+      rotation: {x: 5.551115e-17, y: -2.7755576e-17, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_01_01SHJnt
+      parentName: Guard_RIG_l_Arm_WristSHJnt
+      position: {x: -0.12969357, y: 0.00763312, z: 0.031233886}
+      rotation: {x: -2.7755576e-17, y: -6.938894e-18, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_01_02SHJnt
+      parentName: Guard_RIG_l_Finger_01_01SHJnt
+      position: {x: -0.027435936, y: 0.0017064909, z: 0.0021571086}
+      rotation: {x: -0.00050042564, y: 0.01266343, z: -0.016383478, w: 0.99978554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_01_03SHJnt
+      parentName: Guard_RIG_l_Finger_01_02SHJnt
+      position: {x: -0.028846286, y: -0.0010111257, z: 0.00009949719}
+      rotation: {x: -0.00040808148, y: 0.009817792, z: -0.01852822, w: 0.9997801}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_01_04SHJnt
+      parentName: Guard_RIG_l_Finger_01_03SHJnt
+      position: {x: -0.03234406, y: -0.0046854336, z: -0.001770292}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_02_01SHJnt
+      parentName: Guard_RIG_l_Arm_WristSHJnt
+      position: {x: -0.12769161, y: 0.005085324, z: 0.005560366}
+      rotation: {x: -2.7755576e-17, y: -6.938894e-18, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_02_02SHJnt
+      parentName: Guard_RIG_l_Finger_02_01SHJnt
+      position: {x: -0.030019132, y: 0.0017809519, z: -0.0026875264}
+      rotation: {x: 0.00089527667, y: -0.0703299, z: -0.03228872, w: 0.9970007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_02_03SHJnt
+      parentName: Guard_RIG_l_Finger_02_02SHJnt
+      position: {x: -0.031973496, y: -0.0026099826, z: 0.00084450084}
+      rotation: {x: -2.7755576e-17, y: 1.1074097e-33, z: -3.989864e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_02_04SHJnt
+      parentName: Guard_RIG_l_Finger_02_03SHJnt
+      position: {x: -0.03509427, y: -0.003381327, z: 0.0019475751}
+      rotation: {x: 2.7755576e-17, y: -1.3877788e-17, z: -4.3368087e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_03_01SHJnt
+      parentName: Guard_RIG_l_Arm_WristSHJnt
+      position: {x: -0.11396839, y: -0.0030829674, z: -0.023870694}
+      rotation: {x: -0.04496573, y: -0.056241214, z: 0.0036213344, w: 0.9973976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_03_02SHJnt
+      parentName: Guard_RIG_l_Finger_03_01SHJnt
+      position: {x: -0.035573117, y: -0.00042184765, z: 0.00047628244}
+      rotation: {x: -0.000054132186, y: -0.015854726, z: -0.018088143, w: 0.99971074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_03_03SHJnt
+      parentName: Guard_RIG_l_Finger_03_02SHJnt
+      position: {x: -0.03125045, y: -0.0034256796, z: 0.0030961628}
+      rotation: {x: -0.00052028394, y: 0.0034121668, z: -0.0014759026, w: 0.999993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_03_04SHJnt
+      parentName: Guard_RIG_l_Finger_03_03SHJnt
+      position: {x: -0.031261496, y: -0.0045586964, z: 0.00048031728}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_04_01SHJnt
+      parentName: Guard_RIG_l_Arm_WristSHJnt
+      position: {x: -0.09787898, y: -0.020159822, z: -0.03969624}
+      rotation: {x: 0.009541602, y: 0.031246165, z: 0.027450854, w: 0.9990892}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_04_02SHJnt
+      parentName: Guard_RIG_l_Finger_04_01SHJnt
+      position: {x: -0.03340625, y: 0.0030224705, z: -0.0054985303}
+      rotation: {x: 0.0027750535, y: -0.084487155, z: -0.06582369, w: 0.9942442}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_04_03SHJnt
+      parentName: Guard_RIG_l_Finger_04_02SHJnt
+      position: {x: -0.025162868, y: -0.0022342969, z: 0.0011680692}
+      rotation: {x: 1.1097054e-16, y: 3.8078726e-18, z: 0.0499038, w: 0.998754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_RIG_l_Finger_04_04SHJnt
+      parentName: Guard_RIG_l_Finger_04_03SHJnt
+      position: {x: -0.032298468, y: -0.000046736754, z: -0.00017814054}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_r_Arm_ClavicleSHJnt
@@ -867,7 +986,7 @@ ModelImporter:
     - name: Guard_RIG_r_Finger_01_01SHJnt
       parentName: Guard_RIG_r_Arm_WristSHJnt
       position: {x: 0.12969357, y: -0.0076330975, z: -0.03123388}
-      rotation: {x: -1.564818e-33, y: 3.469447e-17, z: 4.510281e-17, w: 1}
+      rotation: {x: -5.055566e-34, y: -2.0816682e-17, z: -2.4286129e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_r_Finger_01_02SHJnt
       parentName: Guard_RIG_r_Finger_01_01SHJnt
@@ -887,7 +1006,7 @@ ModelImporter:
     - name: Guard_RIG_r_Finger_02_01SHJnt
       parentName: Guard_RIG_r_Arm_WristSHJnt
       position: {x: 0.12769161, y: -0.005085302, z: -0.0055603595}
-      rotation: {x: -1.564818e-33, y: 3.469447e-17, z: 4.510281e-17, w: 1}
+      rotation: {x: -5.055566e-34, y: -2.0816682e-17, z: -2.4286129e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_r_Finger_02_02SHJnt
       parentName: Guard_RIG_r_Finger_02_01SHJnt
@@ -897,12 +1016,12 @@ ModelImporter:
     - name: Guard_RIG_r_Finger_02_03SHJnt
       parentName: Guard_RIG_r_Finger_02_02SHJnt
       position: {x: 0.031973496, y: 0.0026099826, z: -0.00084450084}
-      rotation: {x: -2.7755576e-17, y: 3.8163916e-17, z: 1.0592615e-33, w: 1}
+      rotation: {x: 2.220446e-16, y: 3.469447e-17, z: 5.89806e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_r_Finger_02_04SHJnt
       parentName: Guard_RIG_r_Finger_02_03SHJnt
       position: {x: 0.03509427, y: 0.003381327, z: -0.0019475751}
-      rotation: {x: -2.7755576e-17, y: 3.8163916e-17, z: 1.0592615e-33, w: 1}
+      rotation: {x: 2.220446e-16, y: 3.469447e-17, z: 5.89806e-17, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_r_Finger_03_01SHJnt
       parentName: Guard_RIG_r_Arm_WristSHJnt
@@ -962,167 +1081,47 @@ ModelImporter:
     - name: Guard_RIG_r_Thumb_01_04SHJnt
       parentName: Guard_RIG_r_Thumb_01_03SHJnt
       position: {x: 0.03530455, y: -0.000070062466, z: 0.002403282}
-      rotation: {x: 2.7755576e-17, y: -2.7755576e-17, z: 2.7755576e-17, w: 1}
+      rotation: {x: 8.326673e-17, y: -2.7755576e-17, z: 2.311116e-33, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_Neck_01SHJnt
       parentName: Guard_RIG_Spine_TopSHJnt
       position: {x: -0.045018144, y: 0.00023970846, z: 9.94281e-18}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: -1.110223e-16, y: 1.110223e-16, z: -1.9124107e-32, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_Neck_02SHJnt
       parentName: Guard_RIG_Neck_01SHJnt
       position: {x: -0.045018144, y: 0.00023970846, z: 9.94281e-18}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: -1.110223e-16, y: 1.110223e-16, z: -1.9124107e-32, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_Neck_TopSHJnt
       parentName: Guard_RIG_Neck_02SHJnt
       position: {x: -0.045018144, y: 0.00023970846, z: 9.94281e-18}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: -1.110223e-16, y: 1.110223e-16, z: -1.9124107e-32, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_Head_JawSHJnt
       parentName: Guard_RIG_Neck_TopSHJnt
       position: {x: -0.017481696, y: -0.05795425, z: -9.6428505e-18}
-      rotation: {x: 2.1648903e-17, y: 2.1648903e-17, z: 0.7071068, w: 0.7071068}
+      rotation: {x: 2.1648903e-17, y: 1.7865816e-16, z: 0.7071068, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_Head_JawEndSHJnt
       parentName: Guard_RIG_Head_JawSHJnt
       position: {x: -0.067916796, y: -0.027166719, z: -6.0322233e-18}
-      rotation: {x: -0, y: 0, z: -0, w: 1}
+      rotation: {x: 1.110223e-16, y: 1.110223e-16, z: 1.2325952e-32, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_Head_TopSHJnt
       parentName: Guard_RIG_Neck_TopSHJnt
       position: {x: -0.22175826, y: -0.028174896, z: 5.549631e-17}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: -1.110223e-16, y: 1.110223e-16, z: -1.9124107e-32, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_l_Eye_01SHJnt
       parentName: Guard_RIG_Head_TopSHJnt
       position: {x: 0.12953857, y: -0.09261116, z: -0.03507343}
-      rotation: {x: 2.1648903e-17, y: 2.1648903e-17, z: 0.7071068, w: 0.7071068}
+      rotation: {x: 2.1648903e-17, y: 1.7865816e-16, z: 0.7071068, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_r_Eye_01SHJnt
       parentName: Guard_RIG_Head_TopSHJnt
       position: {x: 0.12953857, y: -0.09261116, z: 0.03507343}
-      rotation: {x: 2.1648903e-17, y: 2.1648903e-17, z: 0.7071068, w: 0.7071068}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Arm_ClavicleSHJnt
-      parentName: Guard_RIG_Spine_TopSHJnt
-      position: {x: -0, y: -0.04382473, z: -0.034836806}
-      rotation: {x: 0.5588033, y: -0.4337123, z: 0.55843294, w: -0.43334192}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Arm_ShoulderSHJnt
-      parentName: Guard_RIG_l_Arm_ClavicleSHJnt
-      position: {x: -0.08068395, y: 0.12544683, z: 0.00023889865}
-      rotation: {x: -0.50760317, y: 0.4229359, z: -0.44697163, w: 0.6030594}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Arm_ElbowSHJnt
-      parentName: Guard_RIG_l_Arm_ShoulderSHJnt
-      position: {x: -0.31813082, y: 8.5265126e-16, z: -5.3290704e-17}
-      rotation: {x: -0.0010443627, y: 0.03116567, z: -0.014361231, w: 0.9994105}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Arm_WristSHJnt
-      parentName: Guard_RIG_l_Arm_ElbowSHJnt
-      position: {x: -0.31454885, y: -1.4210854e-15, z: -5.7731595e-17}
-      rotation: {x: -0.186611, y: 0.043673165, z: 0.022299113, w: 0.98120934}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Thumb_01_01SHJnt
-      parentName: Guard_RIG_l_Arm_WristSHJnt
-      position: {x: -0.041690808, y: -0.008346897, z: 0.034741264}
-      rotation: {x: 0.5731764, y: 0.32154423, z: -0.20887733, w: 0.72418815}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Thumb_01_02SHJnt
-      parentName: Guard_RIG_l_Thumb_01_01SHJnt
-      position: {x: -0.036720775, y: -0.004120504, z: 0.0012874409}
-      rotation: {x: -0.00012116864, y: -0.0022392245, z: 0.054032687, w: 0.99853665}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Thumb_01_03SHJnt
-      parentName: Guard_RIG_l_Thumb_01_02SHJnt
-      position: {x: -0.04351843, y: 0.0011161185, z: 0.00179453}
-      rotation: {x: 0.0002452959, y: 0.0146637885, z: -0.003174901, w: 0.99988747}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Thumb_01_04SHJnt
-      parentName: Guard_RIG_l_Thumb_01_03SHJnt
-      position: {x: -0.03530455, y: 0.000070062466, z: -0.002403282}
-      rotation: {x: 2.7755576e-17, y: -8.326673e-17, z: 2.7755576e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_01_01SHJnt
-      parentName: Guard_RIG_l_Arm_WristSHJnt
-      position: {x: -0.12969357, y: 0.00763312, z: 0.031233886}
-      rotation: {x: -2.7755576e-17, y: -6.938894e-18, z: 2.0816682e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_01_02SHJnt
-      parentName: Guard_RIG_l_Finger_01_01SHJnt
-      position: {x: -0.027435936, y: 0.0017064909, z: 0.0021571086}
-      rotation: {x: -0.00050042564, y: 0.01266343, z: -0.016383478, w: 0.99978554}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_01_03SHJnt
-      parentName: Guard_RIG_l_Finger_01_02SHJnt
-      position: {x: -0.028846286, y: -0.0010111257, z: 0.00009949719}
-      rotation: {x: -0.00040808148, y: 0.009817792, z: -0.01852822, w: 0.9997801}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_01_04SHJnt
-      parentName: Guard_RIG_l_Finger_01_03SHJnt
-      position: {x: -0.03234406, y: -0.0046854336, z: -0.001770292}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_02_01SHJnt
-      parentName: Guard_RIG_l_Arm_WristSHJnt
-      position: {x: -0.12769161, y: 0.005085324, z: 0.005560366}
-      rotation: {x: -2.7755576e-17, y: -6.938894e-18, z: 2.0816682e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_02_02SHJnt
-      parentName: Guard_RIG_l_Finger_02_01SHJnt
-      position: {x: -0.030019132, y: 0.0017809519, z: -0.0026875264}
-      rotation: {x: 0.00089527667, y: -0.0703299, z: -0.03228872, w: 0.9970007}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_02_03SHJnt
-      parentName: Guard_RIG_l_Finger_02_02SHJnt
-      position: {x: -0.031973496, y: -0.0026099826, z: 0.00084450084}
-      rotation: {x: 3.9722305e-34, y: -3.8163916e-17, z: 1.0408341e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_02_04SHJnt
-      parentName: Guard_RIG_l_Finger_02_03SHJnt
-      position: {x: -0.03509427, y: -0.003381327, z: 0.0019475751}
-      rotation: {x: 3.9722305e-34, y: -3.8163916e-17, z: 1.0408341e-17, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_03_01SHJnt
-      parentName: Guard_RIG_l_Arm_WristSHJnt
-      position: {x: -0.11396839, y: -0.0030829674, z: -0.023870694}
-      rotation: {x: -0.04496573, y: -0.056241214, z: 0.0036213344, w: 0.9973976}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_03_02SHJnt
-      parentName: Guard_RIG_l_Finger_03_01SHJnt
-      position: {x: -0.035573117, y: -0.00042184765, z: 0.00047628244}
-      rotation: {x: -0.000054132186, y: -0.015854726, z: -0.018088143, w: 0.99971074}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_03_03SHJnt
-      parentName: Guard_RIG_l_Finger_03_02SHJnt
-      position: {x: -0.03125045, y: -0.0034256796, z: 0.0030961628}
-      rotation: {x: -0.00052028394, y: 0.0034121668, z: -0.0014759026, w: 0.999993}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_03_04SHJnt
-      parentName: Guard_RIG_l_Finger_03_03SHJnt
-      position: {x: -0.031261496, y: -0.0045586964, z: 0.00048031728}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_04_01SHJnt
-      parentName: Guard_RIG_l_Arm_WristSHJnt
-      position: {x: -0.09787898, y: -0.020159822, z: -0.03969624}
-      rotation: {x: 0.009541602, y: 0.031246165, z: 0.027450854, w: 0.9990892}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_04_02SHJnt
-      parentName: Guard_RIG_l_Finger_04_01SHJnt
-      position: {x: -0.03340625, y: 0.0030224705, z: -0.0054985303}
-      rotation: {x: 0.0027750535, y: -0.084487155, z: -0.06582369, w: 0.9942442}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_04_03SHJnt
-      parentName: Guard_RIG_l_Finger_04_02SHJnt
-      position: {x: -0.025162868, y: -0.0022342969, z: 0.0011680692}
-      rotation: {x: 1.1097054e-16, y: 3.8078726e-18, z: 0.0499038, w: 0.998754}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Guard_RIG_l_Finger_04_04SHJnt
-      parentName: Guard_RIG_l_Finger_04_03SHJnt
-      position: {x: -0.032298468, y: -0.000046736754, z: -0.00017814054}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: 2.1648903e-17, y: 1.7865816e-16, z: 0.7071068, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
     - name: Guard_RIG_Sword_AuxSHJnt
       parentName: Guard_RIG_ROOTSHJnt
