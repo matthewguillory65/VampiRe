@@ -8,8 +8,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2caa1098d6ff9444a9e85d9543014a9, type: 3}
-  m_Name: GameContext
+  m_Script: {fileID: 11500000, guid: 43b66fe6845d54140b9f12ec77b2940a, type: 3}
+  m_Name: GameEvent
   m_EditorClassIdentifier: 
-  StateName: Assets.Scripts.Brett.IntroStartState
-  conditions: {fileID: 11400000, guid: 3b4a0d3c8abf41b4dadfebe84d16e698, type: 2}

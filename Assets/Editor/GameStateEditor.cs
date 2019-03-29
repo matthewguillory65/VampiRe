@@ -20,6 +20,7 @@ public class GameStateEditor : EditorWindow
 
     private void OnEnable()
     {
+
         gameStates = new List<System.Type>();
         var assemblies = System.AppDomain.CurrentDomain.GetAssemblies();
         foreach (var assembly in assemblies)
@@ -51,6 +52,7 @@ public class GameStateEditor : EditorWindow
         for (int i = 0; i < gameStates.Count; i++)
         {
             EditorGUILayout.LabelField(gameStates[i].Name);
+            gameStateStrings.Add(gameStates[i].Name);
         }
 
 
@@ -64,12 +66,46 @@ public class GameStateEditor : EditorWindow
 
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("Transition Conditions", EditorStyles.boldLabel);
-        
-        //EditorGUILayout.Popup(0, (Array)gameEvents)
+
+        EditorGUILayout.LabelField("Number of Transitions:");
+        numOfTransitions = EditorGUILayout.IntField(numOfTransitions);
+
+        for (int i = 0; i < gameEvents.Count; i++)
+        {
+            currentTransitionConditionPopup.Add(0);
+        }
+
+        for (int i = 0; i < gameStates.Count; i++)
+        {
+            transitionStates.Add(0);
+        }
+
+        EditorGUIUtility.labelWidth = 1;
+        for (int i = 0; i < numOfTransitions; i++)
+        {
+            EditorGUILayout.BeginHorizontal();
+
+            EditorGUILayout.LabelField("When");
+            currentTransitionConditionPopup[i] = EditorGUILayout.Popup(currentTransitionConditionPopup[i], gameEvents.ToArray());
+            EditorGUILayout.LabelField("is raised, transition to");
+            transitionStates[i] = EditorGUILayout.Popup(transitionStates[i], gameStateStrings.ToArray());
+            EditorGUILayout.EndHorizontal();
+        }
 
 
         if (GUILayout.Button("Create a New GameState") && gameStateName != "")
         {
+            var line = "";
+            for (int i = 0; i < numOfTransitions; i++)
+            {
+                line += "\t\t\t\tif(" + "conditionScriptable.conditions[i].name == " +
+                        "\"" + gameEvents[currentTransitionConditionPopup[i]] + "\""+
+                        " && conditionScriptable.conditions[i].isRaised)\n" +
+                        "\t\t\t\t{\n" +
+                        "\t\t\t\t\tc.ChangeState(new " + gameStateStrings[transitionStates[i]] + "());\n" +
+                        "\t\t\t\t}\n\n";
+            }
+
             string path = "Assets/Scripts/Brett/" + gameStateName + ".cs";
             StreamWriter writer = new StreamWriter(path, true);
             writer.WriteLine("using UnityEngine;\n" +
@@ -83,8 +119,13 @@ public class GameStateEditor : EditorWindow
                              "\t\t{\n\t\t}\n\n" + 
                              "\t\tpublic override void OnExit()\n" +
                              "\t\t{\n\t\t}\n\n" +
-                             "\t\tpublic override void Update(Context c)\n" +
-                             "\t\t{\n\t\t}\n" +
+                             "\t\tpublic override void Update(Context c, ConditionScriptable conditionScriptable)\n" +
+                             "\t\t{\n" +
+                             "\t\t\tfor (int i = 0; i < conditionScriptable.conditions.Count; i++)\n\n" +
+                             "\t\t\t{\n" +
+                             line +
+                             "\t\t\t}\n" +
+                             "\t\t}\n" +
                              "\t}\n}");
            writer.Close();
            AssetDatabase.Refresh();
@@ -101,12 +142,20 @@ public class GameStateEditor : EditorWindow
         }
     }
 
+
     private List<System.Type> gameStates = new List<System.Type>();
     private List<string> gameEvents = new List<string>();
 
     private Vector2 scroll;
     private Vector2 scroll2;
 
+    private int numOfTransitions;
+
+    private List<int> currentTransitionConditionPopup = new List<int>();
+    private List<int> transitionStates = new List<int>();
+
+    private List<string> gameStateStrings = new List<string>();
+    
 
     private string gameStateName;
 
