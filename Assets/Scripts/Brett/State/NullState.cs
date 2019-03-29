@@ -14,7 +14,7 @@ namespace Assets.Scripts.Brett
             throw new NotImplementedException();
         }
 
-        public override void Update(Context c)
+        public override void Update(Context c, ConditionScriptable conditions)
         {
             throw new NotImplementedException();
         }
