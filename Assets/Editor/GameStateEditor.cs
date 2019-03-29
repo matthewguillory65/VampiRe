@@ -103,10 +103,11 @@ public class GameStateEditor : EditorWindow
                         " && conditionScriptable.conditions[i].isRaised)\n" +
                         "\t\t\t\t{\n" +
                         "\t\t\t\t\tc.ChangeState(new " + gameStateStrings[transitionStates[i]] + "());\n" +
+                        "\t\t\t\t\tconditionScriptable.Toggle(" + "\"" + gameEvents[currentTransitionConditionPopup[i]] + "\"" + ");\n" +
                         "\t\t\t\t}\n\n";
             }
 
-            string path = "Assets/Scripts/Brett/" + gameStateName + ".cs";
+            string path = "Assets/Scripts/Brett/State" + gameStateName + ".cs";
             StreamWriter writer = new StreamWriter(path, true);
             writer.WriteLine("using UnityEngine;\n" +
                              "\n" +
