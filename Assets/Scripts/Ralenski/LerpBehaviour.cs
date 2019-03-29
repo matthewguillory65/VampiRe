@@ -6,14 +6,28 @@ namespace Ralenski
 {
     public class LerpBehaviour : MonoBehaviour
     {
+        public bool scrpitON;
         [Range(0, 5)]
         public float sliderVal;
         [HideInInspector]
-        public GameObject sphereOBJ;
+        public GameObject throwableOBJ;
         [TextArea, SerializeField] private string Note;
         public SphereCollider sphereCol;
         public LerpOBJ lerpOBJ;
         public TimeOBJ timeOBJ;
+
+        void enableScript()
+        {
+            if (scrpitON == false)
+            {
+                throwableOBJ.GetComponent<LerpBehaviour>().enabled = false;
+            }
+
+            if (scrpitON == true)
+            {
+                throwableOBJ.GetComponent<LerpBehaviour>().enabled = true;
+            }
+        }
         [Serializable]
         public struct TimeOBJ
         {
@@ -65,7 +79,7 @@ namespace Ralenski
         // Use this for initialization
         void Start()
         {
-            gameObject.GetComponent<LerpBehaviour>().enabled = false;
+            
             timeOBJ = new TimeOBJ
             {
                 Max = 5,
@@ -77,18 +91,16 @@ namespace Ralenski
                 Ending = timeOBJ.Max,
                 Interprolant = timeOBJ.Value //set the ending of the lerp object
             };
-            sphereOBJ = GameObject.CreatePrimitive(PrimitiveType.Sphere);//create a sphere
-            sphereOBJ.AddComponent<Rigidbody>();
-            sphereOBJ.GetComponent<Rigidbody>().useGravity = false;
-            sphereOBJ.transform.SetParent(transform);
-            sphereCol = sphereOBJ.GetComponent<SphereCollider>();//add a collider and store the reference
+            throwableOBJ = GameObject.CreatePrimitive(PrimitiveType.Sphere);//create a sphere
+            throwableOBJ.transform.SetParent(transform);
+            sphereCol = throwableOBJ.GetComponent<SphereCollider>();//add a collider and store the reference
             sphereCol.radius = lerpOBJ.Result;//set the radius of the sphere collider
         }
         // Update is called once per frame
         void Update()
         {
             timeOBJ.Value += Time.deltaTime;//update the timer
-            //sliderVal = timeOBJ.Value;//set the slider to the time objects value
+            sliderVal = timeOBJ.Value;//set the slider to the time objects value
             lerpOBJ.Interprolant = sliderVal / timeOBJ.Max; //set the interprolant to the sliders value
             sphereCol.radius = lerpOBJ.Result;//set the result to be the lerp result
         }

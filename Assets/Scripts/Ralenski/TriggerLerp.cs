@@ -5,18 +5,16 @@ using UnityEngine;
 
 public class TriggerLerp : MonoBehaviour
 {
-    private GameObject Throwable;
-    
-   
-
-    void OnCollisionEnter(Collision col)
+    public GameObject ground;
+    void OnCollisionEnter(Collision other)
     {
-        if (col.rigidbody.transform.parent.CompareTag("Ground"))
+        if (other.rigidbody.gameObject.CompareTag("Throwable"))
+        //if the other rigidbody's gameobject's tag is equal to Throwable is true.
         {
-            Throwable.GetComponent<LerpBehaviour>().enabled = true;
-            print("Should Beginning Lerping");
-            print("Should Alert nearby guard");
-            
+            other.rigidbody.gameObject.GetComponent<LerpBehaviour>().enabled = true;
+            //enable the lerp behaviour script on the throwable object.
+            Debug.Log("Collision with throwable detected");
+            Debug.Log("Lerping should start now");
         }
     }
 
